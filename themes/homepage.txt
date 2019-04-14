@@ -1,0 +1,360 @@
+<table class="ms-main" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-left-color:#FF00FF; border-right-color:#FF00FF; border-right-width:0; border-top-color:#FF00FF; border-bottom-color:#FF00FF" width="796" id="AutoNumber1">
+  <tr>
+    <td class="ms-banner" bgcolor="#000000" height="20" width="796">
+    <p style="text-align: right">
+    &nbsp;<!--webbot bot="Navigation" 
+                S-Type="sequence" 
+                S-Orientation="horizontal" 
+                S-Rendering="html" 
+                S-Btn-Nml="<a ID='onettopnavbar#LABEL_ID#' href='#URL#'>#LABEL#</a>"
+                S-Btn-Sel="<a ID='onettopnavbar#LABEL_ID#' href='#URL#'>#LABEL#</a>"
+                S-Btn-Sep="&amp;nbsp;|&amp;nbsp;"
+                B-Include-Home="FALSE" 
+                B-Include-Up="FALSE" 
+                S-Btn-Nobr="FALSE" 
+                U-Page="sid:1002"
+                S-Target -->
+		</td>
+    <td bgcolor="#000000" height="20" width="10">
+    	<img border="0" src="images/trans.gif" width="1" height="10"></td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF" colspan="2">
+    <img src="images/trans.gif" border="0" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFCC00" colspan="2"><img src="images/trans.gif" height="8" width="1"></td>
+  </tr>
+</table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="800" id="AutoNumber2" height="100%">
+  <tr>
+    <td width="202" height="100%" valign="top" bgcolor="#FFCC00"><!--column 1-->
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber3" bgcolor="#FFFFFF">
+      <tr>
+        <td width="42" valign="top">
+        <img border="0" src="images/quicklaunch.gif" width="42" height="216"></td>
+        <td width="10">
+        <img border="0" src="images/trans.gif" width="1" height="1"></td>
+        <td valign="top" width="140">
+        <br>
+        <!--webbot bot="Navigation" S-Type="sequence" S-Orientation="vertical" S-Rendering="graphics" B-Include-Home="FALSE" B-Include-Up="FALSE" U-Page="sid:1001" --><img src="images/trans.gif" border="0" width="20" height="10"></td>
+        <td width="10">
+        <img border="0" src="images/trans.gif" width="1" height="1"></td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr bgcolor="#99CC66">
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    		<td><img src="images/trans.gif" border="0" width="1" height="10"></td>
+    		<td width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#99CC66">
+    		<td width="20"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    		<td><font face="Arial" size="2"><b>Contoso High School</b><br>1420 Fifth Avenue<br>Seattle, WA  98101</font></td>
+    		<td width="20"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    	</tr>
+    	<tr bgcolor="#99CC66">
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    		<td><font face="Arial" size="2"><img src="images/trans.gif" border="0" width="1" height="10"></font></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#99CC66">
+    		<td width="20"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    		<td><font face="Arial" size="2"><b>phone</b> (206) 555-2512<br><b>fax</b> (206) 555-2513</font></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+		<tr bgcolor="#99CC66">
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    		<td><img src="images/trans.gif" border="0" width="1" height="10"></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#FFCC00">
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    		<td><font face="Arial" size="2"><img src="images/trans.gif" border="0" width="1" height="10"></font></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#FFCC00">
+    		<td width="20"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    		<td><b><font face="Arial" size="2">
+            <a style="font-family: Arial; color: #333399; font-size: 10pt; text-decoration: underline; font-weight: bold" href="http://www.sharepointsample.com/stk/education/highschool/Lists/Lunch%20Specials/calendar.htm?CalendarDate=2003-4">what's for lunch?</a></font></b></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#FFCC00">
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    		<td><font face="Arial" size="2"><img src="images/trans.gif" border="0" width="1" height="10"></font></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+    	<tr bgcolor="#FFCC00">
+    		<td width="20"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    		<td>
+            <p style="text-align: center">
+            <a href="http://www.msnbc.com/news/News_front.asp?0dg=-n">
+            <img border="0" src="http://www.msnbc.com/m/ns/fp.asp?s=news" alt="View news headlines at MSNBC" align="left"></a></td>
+    		<td width="20" height="10"><img src="images/trans.gif" border="0" width="20" height="10"></td>
+    	</tr>
+		<tr bgcolor="#FFCC00">
+    		<td width="20" height="100%"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    		<td height="100%"><img src="images/trans.gif" border="0" width="1" height="1"></td>
+    		<td width="20" height="100%"><img src="images/trans.gif" border="0" width="20" height="1"></td>
+    	</tr>    	
+    </table>
+    </td>
+    <td height="100%" valign="top" bgcolor="#FFFFFF" width="422"><!--column 2-->
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber4">
+      <tr>
+        <td width="10">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+        <td colspan="3">
+        <p style="text-align: center">
+        <br>
+        <img border="0" src="images/highschoolonline.gif" align="left" width="316" height="52"></td>
+        <td width="20">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+      </tr>
+      <tr>
+        <td width="10">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+        <td colspan="3">&nbsp;</td>
+        <td width="20">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+      </tr>
+      <tr>
+        <td width="10">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+        <td colspan="3"><img border="0" src="images/collage.jpg" width="382" height="313"></td>
+        <td width="20">
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+      </tr>
+      <tr>
+        <td width="10">&nbsp;</td>
+        <td>
+        <img border="0" src="images/trans.gif" width="10" height="1"></td>
+        <td colspan="2">
+        <img border="0" src="images/announcements.gif" width="145" height="21"></td>
+        <td width="20"><img border="0" src="images/trans.gif" width="10" height="1"></td>
+      </tr>
+	  <tr>
+        <td width="10"><img border="0" src="images/trans.gif" width="10" height="8"></td>
+        <td>
+        <img border="0" src="images/trans.gif" width="10" height="8"></td>
+        <td colspan="2">
+        <img border="0" src="images/trans.gif" width="1" height="8"></td>
+        <td width="20"><img border="0" src="images/trans.gif" width="10" height="8"></td>
+      </tr>
+      <tr>
+        <td width="10"><img border="0" src="images/trans.gif" width="10" height="1"></td>
+        <td>
+        <img border="0" src="images/trans.gif" width="1" height="1"></td>
+        <td width="4"><img border="0" src="images/trans.gif" width="4" height="1">
+        </td>
+        <td>
+        <!--webbot bot="ListView" S-List="Announcements" S-View="{D584DDB2-9679-4565-AFB4-BA877C23E3C0}" s-XML="&lt;View Name=&quot;{3C142579-8AFD-435B-93C9-0D8F04838DEB}&quot; Type=&quot;HTML&quot; Hidden=&quot;TRUE&quot; BaseViewID=&quot;0&quot; DisplayName=&quot;Summary&quot; Url=&quot;Default.htm&quot;&gt;&lt;Toolbar Type=&quot;None&quot;/&gt;&lt;ViewHeader&gt;&lt;HTML&gt;&lt;![CDATA[&lt;TABLE ID=&quot;]]&gt;&lt;/HTML&gt;&lt;WebQueryInfo/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; width=&quot;100%&quot; cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;/ViewHeader&gt;&lt;ViewBody&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;TR&gt;&lt;TD width=80% class=&quot;ms-vb&quot; style=&quot;padding-bottom: 3px&quot;&gt;&lt;span class=&quot;ms-announcementtitle&quot;&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;Field Name=&quot;LinkTitle&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&lt;/span&gt;&lt;br&gt;]]&gt;&lt;/HTML&gt;&lt;HTML&gt;by &lt;/HTML&gt;&lt;Field Name=&quot;Author&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&lt;/td&gt;&lt;td width=20% align=&quot;]]&gt;&lt;/HTML&gt;&lt;HTML&gt;right&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[&quot; nowrap class=&quot;ms-vb&quot;&gt;&amp;nbsp;]]&gt;&lt;/HTML&gt;&lt;Field Name=&quot;Modified&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=2 class=&quot;ms-vb&quot;&gt; ]]&gt;&lt;/HTML&gt;&lt;Limit Len=&quot;250&quot; MoreText=&quot;...&quot; AutoHyperLink=&quot;TRUE&quot; AutoNewLine=&quot;TRUE&quot;&gt;&lt;Column Name=&quot;Body&quot;/&gt;&lt;/Limit&gt;&lt;Fields&gt;&lt;HTML&gt;&lt;![CDATA[&lt;BR&gt;]]&gt;&lt;/HTML&gt;&lt;Property Select=&quot;DisplayName&quot; HTMLEncode=&quot;TRUE&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[: ]]&gt;&lt;/HTML&gt;&lt;Field/&gt;&lt;/Fields&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;font size=1&gt;&lt;br&gt;&amp;nbsp;&lt;/font&gt;&lt;/TD&gt;&lt;/TR&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;/ViewBody&gt;&lt;ViewFooter&gt;&lt;HTML&gt;&lt;![CDATA[&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]&gt;&lt;/HTML&gt;&lt;/ViewFooter&gt;&lt;RowLimitExceeded&gt;&lt;HTML&gt;&lt;![CDATA[&lt;table cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+					&lt;TR&gt;&lt;TD Class=&quot;ms-vb&quot;&gt;
+					&lt;a href=&quot;]]&gt;&lt;/HTML&gt;&lt;ListProperty Select=&quot;DefaultViewUrl&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; ID=onetidMoreAnn&gt;
+					]]&gt;&lt;/HTML&gt;&lt;HTML&gt;(More Announcements...)&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+					&lt;/a&gt;&lt;/TD&gt;&lt;/TR&gt;
+                    &lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+					]]&gt;&lt;/HTML&gt;&lt;/RowLimitExceeded&gt;&lt;ViewEmpty&gt;&lt;HTML&gt;&lt;![CDATA[
+                       &lt;TABLE width=&quot;100%&quot; border=0&gt;&lt;TR&gt;&lt;TD class=&quot;ms-vb&quot;&gt;]]&gt;&lt;/HTML&gt;&lt;HTML&gt;There are currently no active announcements.  To add a new announcement, click &quot;Add new announcement&quot; above.&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;/TD&gt;&lt;/TR&gt;&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;
+        ]]&gt;&lt;/HTML&gt;&lt;/ViewEmpty&gt;&lt;Query&gt;&lt;Where&gt;
+			&lt;Or&gt;
+				&lt;IsNull&gt;
+					&lt;FieldRef Name=&quot;Expires&quot;/&gt;
+				&lt;/IsNull&gt;
+				&lt;Geq&gt;
+					&lt;FieldRef Name=&quot;Expires&quot;/&gt;
+					&lt;Value Type=&quot;DateTime&quot;&gt;
+						&lt;Today/&gt;
+					&lt;/Value&gt;
+				&lt;/Geq&gt;
+			&lt;/Or&gt;
+		&lt;/Where&gt;
+		&lt;OrderBy&gt;
+			&lt;FieldRef Name=&quot;Modified&quot; Ascending=&quot;FALSE&quot;/&gt;
+		&lt;/OrderBy&gt;
+	&lt;/Query&gt;&lt;ViewFields&gt;
+		&lt;FieldRef Name=&quot;LinkTitle&quot; Explicit=&quot;TRUE&quot;/&gt;
+		&lt;FieldRef Name=&quot;Body&quot; Explicit=&quot;TRUE&quot;/&gt;
+		&lt;FieldRef Name=&quot;Author&quot; Explicit=&quot;TRUE&quot;/&gt;
+		&lt;FieldRef Name=&quot;Modified&quot; Explicit=&quot;TRUE&quot;/&gt;
+	&lt;/ViewFields&gt;
+	&lt;RowLimit Paged=&quot;FALSE&quot;&gt;5&lt;/RowLimit&gt;&lt;/View&gt;" S-Type S-Empty TAG="BODY" --><P>&nbsp;</P>
+		<P><img border="0" src="images/trans.gif" width="1" height="1"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="10">&nbsp;</td>
+        <td colspan="3">
+                
+                <!--webbot bot="FormInsertHere" S-Purpose="homepageviews"--><P>&nbsp;</td>
+        <td width="20">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+    <td width="230" height="100%" valign="top" width="100%"><!--column 3-->
+    	<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#B2D88D" style="border-collapse: collapse">
+    	    <tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="20" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="20"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="20" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="215" colspan="2">
+                <img src="images/thisweeksevents.gif" border="0" width="167" height="23"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="8" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="8"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="8" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    			<td width="200">
+                <!--webbot bot="ListView" S-List="Events" S-View="{04B5EE88-1CDA-4227-B0D1-4B827AE835F8}" s-XML="&lt;View Name=&quot;{E27A8387-3FD9-45B5-93C6-556276072F66}&quot; Type=&quot;HTML&quot; Hidden=&quot;TRUE&quot; BaseViewID=&quot;0&quot; DisplayName=&quot;Summary&quot; Url=&quot;Default.htm&quot;&gt;&lt;Toolbar Type=&quot;None&quot;/&gt;&lt;ViewHeader&gt;&lt;HTML&gt;&lt;![CDATA[&lt;TABLE ID=&quot;]]&gt;&lt;/HTML&gt;&lt;WebQueryInfo/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; width=&quot;100%&quot; cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;/ViewHeader&gt;&lt;ViewBody&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;TR&gt;&lt;TD nowrap align=top class=&quot;ms-vb&quot;&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;Field Name=&quot;EventDate&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;TD width=90% align=top class=&quot;ms-vb&quot; style=&quot;padding-bottom:3px;&quot;&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;Field Name=&quot;LinkTitle&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&lt;br&gt;]]&gt;&lt;/HTML&gt;&lt;Limit Len=&quot;250&quot; MoreText=&quot;...&quot; AutoHyperLink=&quot;TRUE&quot; AutoNewLine=&quot;TRUE&quot;&gt;&lt;Column Name=&quot;Description&quot;/&gt;&lt;/Limit&gt;&lt;Fields&gt;&lt;HTML&gt;&lt;![CDATA[&lt;BR&gt;]]&gt;&lt;/HTML&gt;&lt;Property Select=&quot;DisplayName&quot; HTMLEncode=&quot;TRUE&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[: ]]&gt;&lt;/HTML&gt;&lt;Field/&gt;&lt;/Fields&gt;&lt;HTML&gt;&lt;![CDATA[
+                            &lt;/td&gt;&lt;/tr&gt;
+                        ]]&gt;&lt;/HTML&gt;&lt;/ViewBody&gt;&lt;ViewFooter&gt;&lt;HTML&gt;&lt;![CDATA[&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]&gt;&lt;/HTML&gt;&lt;/ViewFooter&gt;&lt;RowLimitExceeded&gt;&lt;HTML&gt;&lt;![CDATA[&lt;table cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+					&lt;TR&gt;&lt;TD Class=&quot;ms-vb&quot;&gt;
+					&lt;a href=&quot;]]&gt;&lt;/HTML&gt;&lt;ListProperty Select=&quot;DefaultViewUrl&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; ID=onetidMoreEvts&gt;
+					]]&gt;&lt;/HTML&gt;&lt;HTML&gt;(More Events...)&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+					&lt;/a&gt;&lt;/TD&gt;&lt;/TR&gt;
+                    &lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+					]]&gt;&lt;/HTML&gt;&lt;/RowLimitExceeded&gt;&lt;ViewEmpty&gt;&lt;HTML&gt;&lt;![CDATA[
+                    &lt;TABLE width=&quot;100%&quot; border=0&gt;&lt;TR&gt;&lt;TD class=&quot;ms-vb&quot;&gt;]]&gt;&lt;/HTML&gt;&lt;HTML&gt;There are currently no upcoming events.  To add a new event, click &quot;Add new event&quot; above.&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+                    &lt;/TD&gt;&lt;/TR&gt;&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;
+                ]]&gt;&lt;/HTML&gt;&lt;/ViewEmpty&gt;&lt;Query&gt;&lt;Where&gt;
+			&lt;Or&gt;
+				&lt;Geq&gt;
+					&lt;FieldRef Name=&quot;EventDate&quot;/&gt;
+					&lt;Value Type=&quot;DateTime&quot;&gt;
+						&lt;Today/&gt;
+					&lt;/Value&gt;
+				&lt;/Geq&gt;
+				&lt;Geq&gt;
+					&lt;FieldRef Name=&quot;EndDate&quot;/&gt;
+					&lt;Value Type=&quot;DateTime&quot;&gt;
+						&lt;Today/&gt;
+					&lt;/Value&gt;
+				&lt;/Geq&gt;
+			&lt;/Or&gt;
+		&lt;/Where&gt;
+		&lt;OrderBy&gt;
+			&lt;FieldRef Name=&quot;EventDate&quot;/&gt;
+		&lt;/OrderBy&gt;
+	&lt;/Query&gt;&lt;ViewFields&gt;
+		&lt;FieldRef Name=&quot;EventDate&quot; Explicit=&quot;TRUE&quot;/&gt;
+		&lt;FieldRef Name=&quot;LinkTitle&quot; Explicit=&quot;TRUE&quot;/&gt;
+		&lt;FieldRef Name=&quot;Description&quot; Explicit=&quot;TRUE&quot;/&gt;
+	&lt;/ViewFields&gt;
+	&lt;RowLimit Paged=&quot;FALSE&quot;&gt;10&lt;/RowLimit&gt;&lt;/View&gt;" S-Type S-Empty TAG="BODY" --></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="15"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>    		
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="1" border="0"></td>
+    			<td width="200">
+                <img src="images/soccer.jpg" width="168" height="113"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="1" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="15"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="215" colspan="2">
+                <img src="images/researchlinks.gif" border="0" width="155" height="23"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>    
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="8" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="8"></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="8" border="0"></td>
+    		</tr>
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    			<td width="200">
+                <!--webbot bot="ListView" S-List="Links" S-View="{08D7EAEA-D1C4-41F4-AB92-2E5154E0C5C8}" s-XML="&lt;View Name=&quot;{AAFAFF4E-2090-48A9-8CBD-18D926A7C6DD}&quot; Type=&quot;HTML&quot; Hidden=&quot;TRUE&quot; BaseViewID=&quot;0&quot; DisplayName=&quot;Summary&quot; Url=&quot;Default.htm&quot;&gt;&lt;Toolbar Type=&quot;None&quot;/&gt;&lt;ViewHeader&gt;&lt;HTML&gt;&lt;![CDATA[&lt;TABLE ID=&quot;]]&gt;&lt;/HTML&gt;&lt;WebQueryInfo/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; width=&quot;100%&quot; cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+                     ]]&gt;&lt;/HTML&gt;&lt;/ViewHeader&gt;&lt;ViewBody&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;TR&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;Fields&gt;&lt;HTML&gt;&lt;![CDATA[
+                            &lt;TD class=&quot;ms-vb&quot;&gt;
+                        ]]&gt;&lt;/HTML&gt;&lt;Field/&gt;&lt;HTML&gt;&lt;![CDATA[
+                            &lt;/TD&gt;
+                        ]]&gt;&lt;/HTML&gt;&lt;/Fields&gt;&lt;HTML&gt;&lt;![CDATA[
+                        &lt;/TR&gt;
+                    ]]&gt;&lt;/HTML&gt;&lt;/ViewBody&gt;&lt;ViewFooter&gt;&lt;HTML&gt;&lt;![CDATA[&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]&gt;&lt;/HTML&gt;&lt;/ViewFooter&gt;&lt;RowLimitExceeded&gt;&lt;HTML&gt;&lt;![CDATA[&lt;table cellpadding=0 cellspacing=0 border=0 rules=rows&gt;
+					&lt;TR&gt;&lt;TD Class=&quot;ms-vb&quot;&gt;
+					&lt;a href=&quot;]]&gt;&lt;/HTML&gt;&lt;ListProperty Select=&quot;DefaultViewUrl&quot;/&gt;&lt;HTML&gt;&lt;![CDATA[&quot; ID=onetidMoreFavs&gt;
+					]]&gt;&lt;/HTML&gt;&lt;HTML&gt;(More Links...)&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+					&lt;/a&gt;&lt;/TD&gt;&lt;/TR&gt;
+                    &lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+					]]&gt;&lt;/HTML&gt;&lt;/RowLimitExceeded&gt;&lt;ViewEmpty&gt;&lt;HTML&gt;&lt;![CDATA[
+                       &lt;TABLE width=&quot;100%&quot; border=0 rules=rows&gt;
+                          &lt;TR&gt;&lt;TD class=&quot;ms-vb&quot;&gt;]]&gt;&lt;/HTML&gt;&lt;HTML&gt;There are currently no favorite links to display. To add a new link, click &quot;Add new link&quot; above.&lt;/HTML&gt;&lt;HTML&gt;&lt;![CDATA[
+                          &lt;/TD&gt;&lt;/TR&gt;&lt;tr&gt;&lt;td height=&quot;5&quot;&gt;&lt;img src=&quot;]]&gt;&lt;/HTML&gt;&lt;HttpVDir/&gt;&lt;HTML&gt;&lt;![CDATA[/_layouts/images/blank.gif&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;]]&gt;&lt;/HTML&gt;&lt;/ViewEmpty&gt;&lt;Query&gt;&lt;OrderBy&gt;
+			&lt;FieldRef Name=&quot;Modified&quot; Ascending=&quot;FALSE&quot;/&gt;
+		&lt;/OrderBy&gt;
+	&lt;/Query&gt;&lt;ViewFields&gt;
+		&lt;FieldRef Name=&quot;URL&quot;/&gt;
+	&lt;/ViewFields&gt;
+	&lt;RowLimit Paged=&quot;FALSE&quot;&gt;20&lt;/RowLimit&gt;&lt;/View&gt;" S-Type S-Empty TAG="BODY" --></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>   
+    		<tr>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    			<td width="200"><img src="images/trans.gif" width="1" height="15"><!--webbot bot="FormInsertHere" S-Purpose="homepageviews"--></td>
+    			<td width="15"><img src="images/trans.gif" width="15" height="15" border="0"></td>
+    		</tr>    		 			    		
+    	</table>
+    
+    </td>
+    <td width="100%" height="100%" valign="top"><!--column 4-->
+    <img border="0" src="images/trans.gif" width="1" height="1">
+    
+    </td>
+  </tr>
+  <tr>
+    <td width="854" height="100%" valign="top" COLSPAN="3">
+<table border="0" cellpadding="4" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber6" bgcolor="#000000" HEIGHT="17">
+  <tr>
+    <td width="100%" HEIGHT="9">
+    <p style="text-align: center"><font size="1" color="#FFFFFF">© copyright 
+    2002 Contoso, Ltd.&nbsp; All rights reserved.</font></td>
+  </tr>
+</table>
+
+    </td>
+    <td width="100%" height="100%" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+<br><br>

@@ -1,0 +1,115 @@
+ #header {
+	height: 90px;
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+	background: #D7D7D7 url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/3col-3-green.jpg) repeat-x bottom left;
+ }
+ #header, #colorbar h2, #toplinks a, #logo h1, #search, .reg td, .reg td a {
+	color: #FFFFFF;
+ }
+ #logo h1 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 20px;
+ }
+ #search {
+	padding: 20px 0px 0px 0px;
+ }
+ #search_field {
+	padding: 5px;
+	font-style: italic;
+	color: #F6F6E3;
+	font-family: arial;
+	font-size: 90%;
+ }
+ #search_submit {
+	position: relative;
+	top: 2px;
+ }
+ #toplinks {
+	height: 30px;
+	line-height: 30px;
+	background-color: #D7D7D7;
+	text-align: left;
+	text-indent: 20px;
+ }
+ #colorbar {
+	top: 0px;
+	height: 30px;
+	line-height: 30px;
+ }
+ #colorbar h2 {
+	font-weight: normal;
+	font-size: 90%;
+	margin: 0px 20px;
+	padding: 0px 10px;
+	text-align: right;
+	border-bottom: 1px solid #FFFFFF;
+ }
+ #container {
+	position: relative;
+	margin: 126px auto 0px auto;
+
+ }
+ td#content_inner {
+	padding: 10px 26px;
+ }
+ td#content_inner h1 {
+	font-size: 160%;
+	border-bottom: 1px solid #FFFFFF;
+ }
+ #right .MiniCart {
+	padding: 0px;
+ }
+ td#left h2, td#right h2, td#right a.mini-txt, td#left a.left_pagetitle, td#left span.left_pagetitle {
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/3col-3-tabbg.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0px;
+	margin: 0px;
+	line-height: 50px;
+	text-align: center;
+	min-width: 180px;
+	font-size: 140%;
+	font-family: arial;
+ }
+ div.footcat, table#mini-detail td, div.footer_pagelinks {
+	border-color: #F6F6E3;
+ }
+ #press-recal, #toptabs, .suckertreemenu ul li ul {
+	background-color: #F6F6E3;
+ }
+ td#left, td#right, #left a, #right a {
+	border-color: #FFFFFF;
+ }
+ td#left a.left_pagelink {
+	border-bottom: 0px;
+ }
+ #footerlinks {
+	border-top: 1px solid #FFFFFF;
+ }
+ #progressbar {
+	background-color: #99421A;
+	width: 500px;
+ }
+ .suckertreemenu li, .suckertreemenu ul li ul {
+	border-color: #F6F6E3;
+ }
+ #toptabs, .suckertreemenu li, .suckertreemenu ul li a {
+	height: 28px;
+	line-height: 25px;
+ }
+ #toptabs {
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/3col-3-rt.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+ }
+ #toptabs .suckertreemenu {
+	padding-left: 14px;
+	height: 28px;
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/3col-3-lf.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+ }

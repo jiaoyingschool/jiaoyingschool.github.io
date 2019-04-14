@@ -1,0 +1,301 @@
+/*---- color palette ----*/
+/* grays:  #232323 - #7A7A7A - #B7B7B7 - #E1E1E1 - #F0F0F0
+/* blues:  #00162A - #07457D - #4F7BA5 - #BFCEDD
+/*         #06386E - #094B87 - #0A5BAE - #4599E9 - #89C6FF
+/*         #06386E - #9CBEDC - #E5F1F6
+/*         #6DCFF6 - #DBEEFF
+/* reds:   #840023 - #BE1724 - #E5001C - #E49FA5 - #E8CFD5 - #F3D4D7
+/* greens: #128B54 - #70B997 - #B5DBC9 - #DEEFE7
+/*         #22661C - #5CAB45 - #8ED280 - #DEF0DA
+/* yellow: #FECE1B - #FFFBCE
+/*---- color palette ----*/
+
+p img {
+}
+
+body {
+	background: #E4DAD0;
+	padding: 0;
+	margin: 0;
+	color: #E4DAD0;
+	background-color: #E4DAD0;
+}
+
+.container {
+	width: 100%;
+	background-color: #E4DAD0;
+}
+
+/*---- Header AREA ----*/
+
+/*---- Top header (logo and school name) AREA ----*/
+
+#masthead{background-color: #6E5D41;
+	margin: 0;
+	padding: 0px 0px;
+	border-bottom: 3px solid #3c1704;
+	width: 100%;
+}
+
+/*---- Dropdown Menu AREA ----*/
+ 
+#site-nav    { margin: 0;
+	         padding: 0px 0px;
+             height: 27px; background-color: #AA762B; 
+             width: 100%;
+ }
+
+#site-nav ul li { position: relative; 
+               background-color: #AA762B; background-repeat: no-repeat; 
+               background-attachment: scroll; z-index: 1000; margin-top: 2px; 
+               background-position: top }
+#site-nav ul li#current,
+    #site-nav ul li#current-drop {
+      background-position: left 100px; }
+    #site-nav ul li:hover,
+    #site-nav ul li.over,
+    #site-nav ul li#current-drop:hover,
+    #site-nav ul li#current-drop.over {
+      background-position: 0 22px;
+      z-index: 2000; }
+    #site-nav ul li a {background-attachment: scroll; line-height: 20px; 
+               text-transform: uppercase; font-weight: bold; color: white; 
+               padding-left: 20px; padding-right: 12px; padding-top: 0; 
+               padding-bottom: 3px; background-position: top }
+#site-nav ul li a:hover {
+        background-position: right -22px; }
+    #site-nav ul li#current a,
+    #site-nav ul li#current-drop a {
+      padding: 1px 8px 2px;
+      background-position: right -110px;
+      color: #460012; }
+      #usoc #site-nav ul li#current a,
+      #usoc #site-nav ul li#current-drop a {
+        color: #094B87; }
+    #site-nav ul li#current-drop:hover a,
+    #site-nav ul li#current-drop.over a,
+    #usoc #site-nav ul li#current-drop:hover a,
+    #usoc #site-nav ul li#current-drop.over a {
+      color: #FFF; }
+    #site-nav ul li a.drop {
+      padding: 0 17px 3px 8px;
+      background-position: right -44px; }
+    #site-nav ul li#current-drop a {
+      padding: 1px 17px 2px 8px;
+      background-position: right -88px; }
+    #site-nav ul li:hover a.drop,
+    #site-nav ul li.over a.drop,
+    #site-nav ul li#current-drop:hover a,
+    #site-nav ul li#current-drop.over a {
+      background-position: right -66px; }
+    #site-nav ul li .submenu { display: none; position: absolute; left: 3px; top: 17px; width: 150px; 
+               height: auto; background-image: 
+               url('../../images/layout/100.gif'); background-repeat: 
+               no-repeat; background-attachment: scroll; z-index: 1000; 
+               padding-top: 5px; background-position: 50% }
+#site-nav ul li:hover .submenu,
+    #site-nav ul li.over .submenu,
+    #usoc #site-nav ul li:hover .submenu,
+    #usoc #site-nav ul li.over .submenu {
+      display: block; }
+    #site-nav ul li ul {background-color: #990000;;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	padding-bottom: 5px;
+	background-position: bottom;
+}
+#site-nav ul li ul li { position: relative; display: block; float: left; width: 140px; 
+               background-color: #8b582b; background-image: 
+               url('../../images/layout/bn2top.jpg'); background-repeat: 
+               no-repeat; background-attachment: scroll; 
+               border-bottom: 5px solid #460012; margin: 0; padding-left: 5px; 
+               padding-right: 5px; padding-top: 0; padding-bottom: 0; 
+               background-position: 5px bottom }
+#site-nav ul li ul li:hover,
+        #site-nav ul li ul li.over,
+        #usoc #site-nav ul li ul li:hover,
+        #usoc #site-nav ul li ul li.over {
+          background-position: -145px bottom; }
+        #site-nav ul li ul li.last,
+        #usoc #site-nav ul li ul li.last {
+          border-bottom: 0; }
+    #site-nav ul li .submenu li a, #site-nav ul li:hover .submenu li a, #site-nav ul li.over .submenu li a, #site-nav ul li#current:hover .submenu li a, #site-nav ul li#current.over .submenu li a, #site-nav ul li#current-drop:hover .submenu li a, #site-nav ul li#current-drop.over .submenu li a { line-height: 1.2em; font-weight: normal; background-image: 
+               url('../../images/layout/bt2top.gif'); background-repeat: 
+               no-repeat; background-attachment: scroll; text-indent: 2; 
+               color: #FFF; padding-left: 5px; padding-right: 5px; 
+               padding-top: 3px; padding-bottom: 3px;
+}
+
+/*---- MAIN CONTENT AREA ----*/
+#site-content {
+	padding: 10px 10px 0 20px;
+	
+}
+
+#site-content h1 {
+	font-size: 2em;
+}
+
+/*---- CENTER PAGE AD UNIT ----*/
+#center-page-ad {
+	width: 468px;
+	height: 60px;
+	margin: 0 1px 15px;
+}
+
+#center-page-ad a {
+  margin: 0;
+  padding: 0;
+}
+
+#center-page-ad a img {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+/*---- CENTER PAGE AD UNIT ----*/
+#center-page-ad {
+	width: 468px;
+	height: 60px;
+	margin: 0 1px 15px;
+}
+
+#center-page-ad a {
+  margin: 0;
+  padding: 0;
+}
+
+#center-page-ad a img {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+
+/*---- DEFAULT STYLES (Base)----*/
+/*-- resets --*/
+
+.footer_address {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#840023;
+}
+
+a {
+	color: #094B87;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #660033;
+	text-decoration: none;
+}
+
+a img {
+	border: 1px solid #094B87;
+}
+
+a:hover img {
+	border: 1px solid #0A5BAE;
+}
+
+p {
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	height: auto;
+}
+
+/*-- generic menu styles --*/
+
+ul.menu-h {
+    display: block;
+	margin: 1;
+	padding: 1;
+}
+
+ul.menu-h li {
+	list-style: none;
+	display: inline;
+	float: left;
+  	margin: 0;
+	padding: 0;
+}
+
+ul.menu-h li a {
+    display: block;
+    border: 0;
+}
+
+ul.menu-v {
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu-v li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu-v li a {
+	display: block;
+  border: 0;
+}
+
+/*-- tables --*/
+table tr.highlight td {
+	background-color: #E2C599;
+}
+
+/*-- icons --*/
+.icon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -2000em;
+}
+
+.bullet {
+	padding-left: 16px;
+}
+
+.icon_link {
+	padding-left: 20px;
+}
+
+li.icon {
+	padding-left: 22px;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	text-indent: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

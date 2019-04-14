@@ -1,0 +1,140 @@
+
+ html {}
+ body {
+    background-repeat: repeat-x;
+    background-position: top left;
+ }
+ #container, #texta div {
+    width: 906px;
+    margin: 0px auto;
+ }
+ #footer_tbl, #header_tbl, #content_tbl, #content_tbl_full, #base_store_info, #social_tbl, #texta {
+    width: 100%;
+ }
+ table#checkout-width {
+    width: 880px;
+ }
+ #content_tbl, #social_tbl, #content_tbl_full {
+    background-color: #FFFFFF;
+ }
+ #header {
+    height: 100px;
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/smooth-top.gif) no-repeat bottom right;
+ }
+ table#header_tbl {
+    height: 100px;
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/smooth-top.gif) no-repeat bottom left;
+ }
+ #footer {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/smooth-bottom.gif) no-repeat top left;
+ }
+ #base_store_info {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/smooth-bottom.gif) no-repeat top right;
+    padding: 30px 0px 0px 0px;
+ }
+ #footer_tbl td {
+    border-top: 20px solid transparent;
+ }
+ ul#ShopSite {
+    height: 32px;
+    max-height: 32px;
+ }
+ #header_tbl {
+    height: 80px;
+ }
+ #content_tbl_full, div.billing, div.confirmation, div.thankyou {
+    width: 906px;
+    margin: 0px auto;
+ }
+ table#search_tbl {
+    background-color: #F4ECCE;
+ }
+ #left_side div.left_pagelinks, #right_side div.right_pagelinks, #right_side div.MiniCart, table#gbl_crs_sell_right {
+    margin: 6px 0px 14px 0px;
+ }
+ body #texta div, #left_side a, #left_side a:link, #left_side a:active, #left_side a:visited, #right_side a, #right_side a:link, #right_side a:active, #right_side a:visited, #footer a, #footer a:link, #footer a:visited, #footer a:active {
+    color: #292825;
+ }
+ #left_side a:hover, #right_side a:hover, #footer a:hover {
+    color: #037F8F;
+ }
+ #left_side a.left_pagetitle, #right_side a.right_pagetitle {
+    border-bottom: 1px solid #F6F6E3;
+ }
+ #left_side a.left_pagetitle, #right_side a.right_pagetitle, #footer a.footer_pagetitle, #right_side h3 {
+    font-weight: bold;
+    font-size: 100%;
+ }
+ #right_side h3 {
+    text-align: left;
+ }
+ table#gbl_crs_sell_right {
+    padding: 0px 8px;
+ }
+ table#gbl_crs_sell_right td {
+    background-color: #FFFFFF;
+ }
+ table#mini-detail td.mini-pr-txt, table#mini-detail td.mini-qt-txt, table#mini-detail td.mini-pc-txt {
+    background: #6F420D;
+    color: #FFFFFF;
+ }
+ table#mini-detail td.mini-pr-txt {
+    border-left: 1px solid #6F420D;
+ }
+ table#mini-detail td.mini-pc-txt {
+    border-right: 1px solid #6F420D;
+ }
+ .suckertreemenu {
+    height: 32px;
+    max-height: 32px;
+    margin: 8px auto 0px auto;
+    padding: 0px;
+    clear: both;
+ }
+ ul#ShopSite li {
+    left: 10px;
+ }
+ ul#ShopSite li li {
+    left: 0px;
+ }
+ .suckertreemenu ul ul {
+    background: #99421A url(../media/themesmedia/spacer.gif);
+ }
+ .suckertreemenu li ul {
+    padding: 5px;
+    top: -4px;
+ }
+ body #texta div a, .suckertreemenu a, .suckertreemenu a:link, .suckertreemenu a:active, .suckertreemenu a:visited {
+    color: #037F8F;
+ }
+ .suckertreemenu li:hover, .suckertreemenu li ul, .suckertreemenu li ul li ul li:hover, .suckertreemenu li ul li ul li ul, .suckertreemenu li ul li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul li ul {
+    background-color: #F4ECCE;
+ }
+ .suckertreemenu li ul li:hover, .suckertreemenu li ul li ul, .suckertreemenu li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul {
+    background-color: #6F420D;
+    color: #FFFFFF;
+ }
+ #header h1 span, #header-shadow h1 span, #header a, #header a:visited, #header a:active, #header-shadow a, #header-shadow a:visited, #header-shadow a:active {
+    color: #99421A;
+ }
+ #footer div#payment_icos_foot {
+    float: right;
+ }
+ div.ss_secure_image {
+    width: 906px;
+    margin: 0px auto;
+ }
+ table.cart th {
+    background-color: #FFFFFF;
+    color: #292825;
+    border-top: 1px solid #D7D7D7;
+ }
+ table.cart td {
+    background-color: #F6F6E3;
+ }
+ #social_tbl {
+    border-top: 1px solid #D7D7D7;
+ }
+ input.button6 {
+    padding-top: 8px;
+ }

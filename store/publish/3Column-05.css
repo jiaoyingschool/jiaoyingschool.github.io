@@ -1,0 +1,113 @@
+ body {
+	background-repeat: repeat-x;
+	background-position: top right;
+ }
+ #header {
+	height: 110px;
+	padding-top: 30px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+ }
+ #toptabs {
+	top: 140px;
+ }
+ #search, .reg td, .reg td a {
+	color: #FFFFFF;
+ }
+ #logo h1 {
+	font-weight: normal;
+	margin: 0px;
+	padding: 20px;
+	font-size: 26pt;
+ }
+ #search {
+	padding: 20px 0px 0px 0px;
+ }
+ #search_field {
+	padding: 5px;
+	font-style: italic;
+	color: #F6F6E3;
+	font-family: arial;
+	font-size: 90%;
+ }
+ #search_submit {
+	position: relative;
+	top: 2px;
+ }
+ #toplinks {
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	text-indent: 20px;
+	z-index: 3;
+ }
+ #colorbar {
+	top: 0px;
+	height: 30px;
+	line-height: 30px;
+ }
+ #colorbar h2 {
+	font-weight: normal;
+	font-size: 90%;
+	margin: 0px 10px;
+	padding: 0px 10px;
+	text-align: left;
+	border-bottom: 1px solid #FFFFFF;
+ }
+ #container {
+	position: relative;
+	margin: 140px auto 0px auto;
+
+ }
+ td#content_inner {
+	padding: 10px;
+	background-color: #FFFFFF;
+ }
+ td#content_inner h1 {
+	font-size: 160%;
+	border-bottom: 1px solid #F6F6E3;
+ } 
+ div.footcat, table#mini-detail td, div.footer_pagelinks {
+	border-color: #F6F6E3;
+ }
+ #footercategories, #press-recal {
+	background-color: #F6F6E3;
+ }
+ #toptabs, .suckertreemenu ul li ul {
+	background-color: #FFFFFF;
+ }
+ td#left, td#right {
+	background-color: #000006;
+	border-color: #000006;
+	color: #D7D7D7;
+ }
+ td#left h2, td#right h2, #right .MiniCart a.mini-txt, #right .right_pagetitle {
+	font-size: 120%;
+	background-color: #F6F6E3;
+	padding: 6px;
+	margin: 6px;
+	border-bottom: 0px;
+ }
+ #left a, #right a {
+	border-color: #FFFFFF;
+ }
+ #footerlinks {
+	border-top: 1px solid #FFFFFF;
+ }
+ #progressbar {
+	background-color: #99421A;
+	width: 500px;
+ }
+ #toptabs, .suckertreemenu li, .suckertreemenu ul li a {
+	height: 28px;
+	line-height: 25px;
+ }
+ #footertext {
+	border-top: 8px solid #FFFFFF;
+	background-color: #000006;
+	padding: 0px 20px 8px 20px;
+ }
+ td.pr {
+	border: 1px solid #000006;
+ }

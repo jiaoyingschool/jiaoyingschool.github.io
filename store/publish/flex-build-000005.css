@@ -1,0 +1,227 @@
+
+ html {}
+ body {
+    background-repeat: repeat-x;
+    background-position: top left;
+    padding-bottom: 20px;
+ }
+ span.pr_desc {
+    color: #292825;
+ }
+ body #container {
+    width: 906px;
+    background: #FFFFFF url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-left-repeat.gif) top left repeat-y;
+    padding: 0px;
+    margin: 10px auto 20px auto;
+ }
+ body #texta {
+    background: #F6F6E3 url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-left-top.gif) top left repeat-y;
+    width: 906px;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    clear: both;
+ }
+ body #texta div {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-top.gif) top right no-repeat;
+    padding: 10px 20px 5px 20px;
+    position: relative;
+    left: -40px;
+    text-indent: 40px;
+    color: #FFFFFF;
+ }
+ #texta div.MiniCart {
+    background-image: url(../media/themesmedia/spacer.gif);
+    padding: 0px 10px;
+ }
+ #header, #header-shadow {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-left-top.gif) top left no-repeat;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+ }
+ #header_tbl {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-top.gif) top right no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+ }
+ #logo {
+    padding-top: 10px;
+ }
+ #social_tbl {
+    width: 100%;
+    margin: 0px auto;
+ }
+ #content_tbl {
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    border-top: 8px solid transparent;
+ }
+ #content, #social {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-repeat.gif) top right repeat-y;
+    padding-left: 20px;
+ }
+ #content_tbl_full, div.billing, div.confirmation, div.thankyou {
+    width: 906px;
+    margin: 0px auto;
+ }
+ div.billing_inner, div.confirmation_inner, div.thankyou_inner {
+    padding: 0px 60px 0px 20px;
+ }
+ #search_area {
+    padding-top: 10px;
+ }
+ #search_area, #right_side {
+    padding-right: 20px;
+ }
+ td#networks {
+    padding-right: 20px;
+ }
+ #footer {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-left-bottom.gif) bottom left no-repeat;
+    padding-left: 20px;
+ }
+ #footer_tbl {
+    width: 100%;
+    padding: 0px;
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-repeat.gif) top right repeat-y;
+ }
+ #footer_tbl td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 20px solid transparent;
+ }
+ #footer_tbl div.footer_pagelinks {
+    border-right: 1px solid #D7D7D7;
+ }
+ #header_tbl, #content_tbl, #social_tbl, #footer_tbl, #texta div {
+    width: 100%;
+ }
+ #base_store_info {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-bottom.gif) bottom right no-repeat;
+    margin: 0px;
+    width: 100%;
+    _position: relative;
+    _left: 20px;
+ }
+ #base_store_info span.right {
+    padding-right: 20px;
+ }
+ div.ss_secure_image {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-bg-right-bottom.gif) bottom right no-repeat;
+    margin: 0px;
+    width: 100%;
+    _position: relative;
+    _left: 20px;
+    padding: 0px;
+    height: 70px;
+ }
+ div.ss_secure_image img {
+    position: relative;
+    left: -20px;
+ }
+ #header_tbl {
+    height: 100px;
+ }
+ #left_side div.left_pagelinks, #right_side div.right_pagelinks {
+    background: #F5F4F1 url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-side-bottom.gif) bottom left no-repeat;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+ }
+ #left_side a.left_pagetitle, #right_side a.right_pagetitle {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-side-top.gif) top left no-repeat;
+    padding-top: 8px;
+    color: #292825;
+ }
+ #left_side a.left_pagelink, #right_side a.right_pagelink, #footer a.footer_pagelink, #footer a.footer_pagetitle {
+    color: #292825;
+ }
+ #left_side a.left_pagetitle, #right_side a.right_pagetitle, #footer a.footer_pagetitle, #right_side h3 {
+    font-weight: bold;
+    font-size: 100%;
+ }
+ #right_side h3 {
+    text-align: left;
+ }
+ table#gbl_crs_sell_right {
+    padding: 0px 8px;
+ }
+ table#gbl_crs_sell_right td {
+    background-color: #FFFFFF;
+ }
+ table#mini-detail td.mini-pr-txt, table#mini-detail td.mini-qt-txt, table#mini-detail td.mini-pc-txt {
+    background: #6F420D;
+    color: #FFFFFF;
+ }
+ table#mini-detail td.mini-pr-txt {
+    border-left: 1px solid #6F420D;
+ }
+ table#mini-detail td.mini-pc-txt {
+    border-right: 1px solid #6F420D;
+ }
+ .suckertreemenu {
+    height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    clear: both;
+    position: relative;
+    z-index: 5;
+    background: #037F8F url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-nav-left.gif) top left no-repeat;
+ }
+ ul#ShopSite {
+    height: 32px;
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/flex-build/shipshape-nav-right.gif) top right no-repeat;
+    width: 100%;
+    _position: relative;
+    _left: 20px;
+    z-index: 5;
+ }
+ ul#ShopSite li {
+    left: 30px;
+ }
+ ul#ShopSite li li {
+    left: 0px;
+ }
+ .suckertreemenu ul ul {
+    background: #99421A url(../media/themesmedia/spacer.gif);
+ }
+ .suckertreemenu li ul {
+    padding: 5px;
+    top: -4px;
+ }
+ .suckertreemenu a, .suckertreemenu a:link, .suckertreemenu a:active, .suckertreemenu a:visited {
+    color: #FFFFFF;
+ }
+ .suckertreemenu li:hover, .suckertreemenu li ul, .suckertreemenu li ul li ul li:hover, .suckertreemenu li ul li ul li ul, .suckertreemenu li ul li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul li ul {
+    background-color: #6F420D;
+ }
+ .suckertreemenu li ul li:hover, .suckertreemenu li ul li ul, .suckertreemenu li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul {
+    background-color: #99421A;
+    color: #FFFFFF;
+ }
+ #header h1 span, #header-shadow h1 span, #header a, #header a:visited, #header a:active, #header-shadow a, #header-shadow a:visited, #header-shadow a:active {
+    color: #99421A;
+ }
+ #footer div#payment_icos_foot {
+    float: right;
+ }
+ table.cart th {
+    background-color: #FFFFFF;
+    color: #292825;
+    border-top: 1px solid #D7D7D7;
+ }
+ table.cart td {
+    background-color: #F6F6E3;
+ }
+ input.button6 {
+    padding-top: 8px;
+ }
+ #search_tbl_button {
+    background-color: #D7D7D7;
+ }
+ #search_tbl_button input.search_submit {
+    background-color: #D7D7D7;
+    color: #292825;
+ }

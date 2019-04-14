@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>Step One</title>
+</head>
+<!--agorascript-orderform
+ &checkout_order_form_prep;
+-->
+<body>
+
+<h2>CART CONTENTS HERE</h2>
+
+</form><form method="post" action="agora.cgi">
+
+<div align="center">
+<table class="ac_checkout">
+<!--agorascript-pre
+if ("$sc_2checkout_top_message" ne "") { return 
+q~<TR>
+<TD COLSPAN="2"><br><blockquote>$sc_2checkout_top_message</blockquote></TD>
+</TR>~
+;}
+-->
+
+<TR>
+<TD COLSPAN="2">
+<P>&nbsp;</P>
+</TD>
+</TR>
+
+<TR>
+<TD>
+
+<TABLE>
+<TR>
+<td colspan=2 class="ac_checkout_top_col">
+Please enter initial info needed to compute your shipping</td>
+</tr>
+<tr>
+<td class="ac_checkout_left_col">Method:</td>
+<td class="ac_checkout_right_col">
+<select name="Ecom_ShipTo_Method">
+<option value="$vform_Ecom_ShipTo_Method"><!--agorascript-pre
+ if ("$vform_Ecom_ShipTo_Method" eq "") {
+   return " Select Shipping Method ";
+  } else {
+   return "$vform_Ecom_ShipTo_Method";
+  }
+--></option>
+<!--agorascript-pre
+
+ { return
+qq|$sc_shiptomethod_4forms|;
+}  -->
+</select>
+</td>
+</TR>
+<tr>
+<td class="ac_checkout_left_col">State/Province:</td>
+<td class="ac_checkout_right_col">
+<select name="Ecom_ShipTo_Postal_StateProv">
+<option value="$vform_Ecom_ShipTo_Postal_StateProv">$vform_Ecom_ShipTo_Postal_StateProv &nbsp;</option>
+<!--agorascript-pre
+{ return
+qq|$sc_shiptostates_4forms|;}
+ -->
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Zip/Postal Code:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_PostalCode"
+    value="$eform_Ecom_ShipTo_Postal_PostalCode" size="11" maxlength="11">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Country:</td>
+<td class="ac_checkout_right_col">
+  <SELECT NAME="Ecom_ShipTo_Postal_CountryCode">
+<OPTION VALUE="$vform_Ecom_ShipTo_Postal_CountryCode">$vform_Ecom_ShipTo_Postal_CountryCode
+<!--agorascript-pre
+
+if ("$sc_shiptocountries_4forms" ne '') { return
+qq|$sc_shiptocountries_4forms|;}
+else {
+return
+qq|
+<option>United States</option>
+<option>Australia</option>
+<option>Canada</option>
+<option>Ireland</option>
+<option>Puerto Rico</option>
+<option>Scotland</option>
+<option>United Kingdom</option>
+<option>Wales</option>
+|;
+} -->
+</SELECT>
+</td>
+</tr>
+<tr>
+<td class="ac_checkout_left_col" colspan=2><input type="checkbox" name="Ecom_is_Residential" value="Ship to Residential Address">  Is this a Residential Address?
+</td>
+</tr>
+<!--agorascript-pre
+# inspired from solutions submitted from Dan at CartSoutions.net
+if ("$sc_display_checkout_tos" =~ /yes/i) { return
+q|
+<td colspan=2 class="ac_checkout_top_col">
+Terms of Service & Our Contact Information</td>
+</tr>
+<tr>
+<td colspan=2 class="ac_checkout_right_col">
+$sc_tos_display_address<br><br>
+You must read the following link before you can continue:  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="$sc_store_url?cartlink=terms_of_service.html" TARGET="_blank"><b>Sales/Terms of Service and Refund Policy</b></A>.<br>
+Then put a tick in the box below. By selecting &quot;I Agree&quot; you are acknowledging that you have read and agree to our policies contained within that page.
+<br><br>
+<input type="checkbox" name="Ecom_tos" value="I Agree">&nbsp;&nbsp;&nbsp; I Agree and have read the Terms of Service listed above (required to continue)<br><br></td>
+</tr>
+|;} -->
+<td colspan=2 class="ac_checkout_top_col">
+Misc Info</td>
+
+<!--agorascript-pre
+if ("$sc_enable_discount" =~ /yes/i) {
+  if ("$sc_storewide_discount" ne "0") { return
+q~
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="hidden" NAME="Ecom_Discount" value="storewide">
+    <i>Storewide Sale going on. No other discounts can be applied.</i>
+  </td>
+</tr>
+~;
+  } else { return
+q~
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" NAME="Ecom_Discount" value="$eform_Ecom_Discount" size="22" maxlength="30">
+  </td>
+</tr>
+~;
+  }
+} elsif ("$sc_storewide_discount" ne "0") { return
+q~
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="hidden" NAME="Ecom_Discount" value="storewide">
+    <i>Storewide Sale going on. No other discounts can be applied.</i>
+  </td>
+</tr>
+~;
+}
+-->
+
+<td colspan=2><br/></td>
+</tr>
+<tr>
+<td class="ac_checkout_left_col">Special Notes:</td>
+<td class="ac_checkout_right_col">
+  <textarea name="Ecom_XCOMMENT_Special_Notes" cols="50" rows="5">$eform_Ecom_XCOMMENT_Special_Notes</textarea>
+</td>
+</tr>
+<TR>
+<TD COLSPAN="2" ALIGN="CENTER"><INPUT 
+TYPE=HIDDEN NAME="gateway" VALUE="2checkout"><INPUT 
+TYPE=submit NAME = "submit_order_form_button"  
+VALUE = "next"></TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</FONT>
+</CENTER>
+</div>
+</FORM>
+</BODY>
+</HTML>
+

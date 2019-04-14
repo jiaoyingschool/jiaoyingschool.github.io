@@ -1,0 +1,103 @@
+<HTML>
+<head>
+<TITLE> %%month%% %%year%% Invoice: %%invoiceNumber%% - %%customerNumber%%</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="copyright" content="%%year%%">
+<meta name="author" content="AgoraCart">
+<meta name="publisher" content="K-Factor Technologies,Inc.">
+</head>
+<BODY bgcolor="#FFFFFF" text="#000000" alink="#FF0000" vlink="#FF00FF" link="#0000FF">
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td>
+<center><font face=arial size=+3 color=red><b>Invoice&nbsp;&nbsp;&nbsp;</b> </font></center>
+<font face=arial size=+2 color=red>AgoraCart.com</font><br>
+<font face=arial size=1>your company address<br>City, State, Postalcode<br>Phone: 800-123-4567<br>Email_address@SomeDomainNameHere.com</font><br>
+<br>
+<table width=98% border=1 cellpadding=10 cellspacing=0>
+<tr bgcolor=#99CC99>
+<td valign=top width=50%>
+<font face=arial size=1>
+<b>Bill To:</b>
+</font>
+</td>
+<td valign=top width=50%>
+<font face=arial size=1>
+<b>Ship To:</b>
+</font>
+</td></tr>
+<tr>
+<td valign=top width=50%>
+<font face=arial size=1><b>
+%%fullName%%<br>
+%%orderFromAddress%%<br>
+<!--%%companyName%%<br>-->
+%%orderFromCity%%, %%orderFromState%%<br>
+%%orderFromPostal%%<br>
+%%orderFromCountry%%<br><br>
+%%customerPhone%%<br>
+%%emailAddress%%<br>
+</b>
+</font>
+</td>
+<td valign=top>
+<font face=arial size=1><b>
+%%shipToName%%<br>
+%%shipToAddress%%<br>
+%%shipToCity%%, %%shipToState%%<br>
+%%shipToPostal%%<br>
+%%shipToCountry%%<br><br>
+</b>
+</font>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top width=100%>
+<font face=arial size=2>
+<b>Order: %%invoiceNumber%% - %%customerNumber%%</b>
+</font>
+</td></tr>
+<tr>
+<td valign=top width=50%>
+<font face=arial size=1>
+<b>Date of Order:</b> %%month%% %%day%%, %%year%%<br>
+<b>Status of Order:</b> %%orderStatus%%<br><br>
+<b>Invoice Number:</b> %%invoiceNumber%%<br>
+<b>Customer ID:</b> %%customerNumber%%<br>
+<b>Processed Via:</b> %%GatewayUsed%%<br><br>
+<b>Ship via:</b> %%shipMethod%%<br>
+<b>Residential?</b> %%shipToResidential%%<br>
+<b>Insure?</b> %%shipToInsured%%<br>
+<b>Tracking ID (if any):</b> %%shiptrackingID%%<br>
+</font>
+</td>
+<td valign=top width=50%>
+<table width=80% border=0 cellpadding=0>
+<tr><td align=right><font face=arial size=1>Order Subtotal:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%subTotal%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Discounts Given:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%discounts%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>buySAFE Bond Fee:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%buysafecost%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Sales Tax:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%salesTax%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Tax 1:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%tax1%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Tax 2:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%tax2%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Tax 3:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%tax3%%</font></td></tr>
+<tr><td align=right><font face=arial size=1>Shipping:</font></td><td align=right><font face=arial size=1>%%money_symbol%% %%shippingTotal%%</font></td></tr>
+<tr><td align=right><font face=arial size=2><b>Grand Total:</b></font></td><td align=right><font face=arial size=2><b>%%money_symbol%% %%orderTotal%%</b></font></td></tr>
+</table>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top><center><font face=arial size=2><b>Product Information</b></font></center></td></tr>
+<tr>
+<td colspan=2 valign=top>
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<td valign=top width=75%><font face=arial size=1><br><b>Product Name</b></font></td>
+<td valign=top width=10%><font face=arial size=1><br><b>Quantity</b></font></td>
+<td valign=top width=15%><font face=arial size=1><br><b>Total Price Each</b></font></td></tr>
+%%cartContents%%
+</table>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top><center><font face=arial size=2><b>Messages</b></font></center></td></tr>
+<tr>
+<td colspan=2 valign=top><center><font face=arial size=1>%%xcomments%%</font></center></td></tr>
+</table>
+</td></tr>
+</table>
+</BODY>
+</HTML>

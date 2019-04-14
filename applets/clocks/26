@@ -1,0 +1,8 @@
+<applet code='BigTime11' codebase='/applets/clocks'
+     width='120' height='35'>
+    <param name='ledcolor' value='Black'>
+    <param name='backcolor' value='Yellow'>
+    <param name='offsethr' value='0'>
+    <param name='mode' value='12'>
+    <param name='framecolor' value='Yellow'>
+</applet>

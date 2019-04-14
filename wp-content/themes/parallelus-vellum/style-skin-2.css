@@ -1,0 +1,153 @@
+/*
+	Skin Name: Skin 2
+*/
+
+/* Fonts */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+body, h1, h2, h3, h4, h5, h6, .vc_text_separator div, .wpb_accordion .ui-accordion .ui-accordion-header, .comments-area article header cite, .headline, .page-title, h2.wpb_call_text { font-family: 'Open Sans', sans-serif; }
+p { line-height: 1.6923; }
+
+/* Page */
+body { background-color: #494949; color: #999; }
+body.full-width-left, body.full-width-right { background-color: #393939; }
+
+/* Main Background Colors */
+#page, .site-header, .format-quote .post-header .sub-title, .format-quote .post-header .post-symbol i, .comments-area article header:before, div.vc_text_separator div, #colorbox #cboxContent, #colorbox #cboxTitle { background-color: #393939; } /* main color */
+#masthead, .boxed-left .masthead-vertical-bg, .full-width-left .masthead-vertical-bg, .boxed-right .masthead-vertical-bg, .full-width-right .masthead-vertical-bg, article.format-quote .post-header, article.format-link .post-header { background-color: #292929; } /* dark backgrounds */
+
+/* Accent color - Primary */
+.accent-primary, article.format-quote a:hover .post-header, article.format-link a:hover .post-header, .overlay-effect-slide .inner-overlay i, .overlay-effect-accent .inner-overlay, .overlay-effect-zoom-accent .inner-overlay, .jp-play-bar, .jp-volume-bar-value, .impactBtn, .impactBtn:hover, .impactBtn:active, body a.impactBtn, body a.impactBtn:link, body a.impactBtn:visited, .wpb_call_to_action .wpb_button.wpb_accent-primary, .wpb_call_to_action .wpb_button.wpb_accent-primary:hover, .wpb_call_to_action .wpb_button.wpb_accent-primary:active, .vc_progress_bar .vc_single_bar.accent-primary .vc_bar { 
+	background-color: #41B6AB; }
+.accent-primary-border, .inner-overlay i.fa, [class*="image-border-"] img, img[class*="image-border-"], .wpb_button.wpb_accent-primary, .wpb_button.wpb_accent-primary:active { 
+	border-color: #41B6AB; }
+div.wpb_tour .ui-tabs .ui-tabs-nav li.ui-tabs-active a, div.wpb_tour .ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover  { 
+	border-bottom-color: #41B6AB; }
+.accent-primary-color, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em, h2.wpb_call_text em, .iconBox.icon i, div.wpb_wrapper h4.wpb_toggle:hover:before, div.wpb_accordion .wpb_accordion_wrapper .ui-accordion-header:hover .ui-icon, .inner-overlay i, .wpb_button.wpb_accent-primary, .wpb_button.wpb_accent-primary:active, .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+	color: #41B6AB; }
+
+/* Links */
+a { color: #41B6AB; }
+/* Hover (and default footer links) */
+a:hover, .entry-title a:hover, .widget a:hover, .wpb_carousel .post-title a:hover, .masthead-container .widget-area a:hover { color: #ddd; }
+
+/* Bottom */
+#Bottom a, #Bottom a, #Bottom a, #Bottom a, #Bottom a, #Bottom a { color: #aaa; }
+#Bottom a:hover, #Bottom a:hover, #Bottom a:hover, #Bottom a:hover, #Bottom a:hover, #Bottom a:hover { color: #41B6AB; }
+
+/* Widgets, Menu - Sub-menu Items, Tabs */
+.widget a       { color: #41B6AB; }
+.widget a:hover { color: #ddd; }
+.masthead-container .widget-area a { color: rgba(255,255,255,.6); }
+.masthead-container .widget-area a:hover { }
+
+/* Ajax Search */
+#AjaxSearchPane .ajax-result-title a, #AjaxSearchPane a.ajax-search-link { color: #393939; font-weight: bold; }
+#AjaxSearchPane .ajax-result-title a:hover, #AjaxSearchPane a.ajax-search-link:hover { }
+
+/* Meta Text, Links, Tabs and Filters */
+.entry-date, .entry-meta a, .edit-link a, .comments-area article header a, div.wpb_content_element div.ui-tabs .ui-tabs-nav li a, body .wpb_teaser_grid .categories_filter li a, body .wpb_categories_filter li a { 
+	color: #888; } /* text/link */
+.entry-meta a:hover, .edit-link a:hover, .comments-area article header a:hover, div.wpb_content_element div.ui-tabs .ui-tabs-nav li a:hover, body .wpb_teaser_grid .categories_filter li a:hover, body .wpb_categories_filter li a:hover, body .wpb_teaser_grid .categories_filter li.active a, body .wpb_categories_filter li.active a  { color: #aaa; } /* hover */
+div.wpb_tabs div.ui-tabs .ui-tabs-nav li.ui-tabs-active a, div.wpb_tabs div.ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover, ul#sort-by li a.active, 
+div.wpb_tabs.light div.ui-tabs .ui-tabs-nav li.ui-tabs-active a, div.wpb_tabs.light div.ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover { color: #f0f0f0; } /* active */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, h2.wpb_call_text, .page-title, .headline, .comments-area article header cite, div.wpb_wrapper h4.wpb_toggle, .vc_text_separator div, #page .wpb_accordion .ui-accordion .ui-accordion-header a, #page .wpb_accordion .ui-accordion .ui-accordion-header a:hover, .site-header .site-title a, .entry-title, .entry-title a, .widget .widgettitle, .widget .content-rotator-heading, .wpb_carousel .post-title a, .widget-area .widget li[class*="current"] a, .iconBox .iconBoxTitle, .rotator .entry-title a { 
+		font-weight: 300; color: #ddd; 
+		-webkit-text-stroke: 0.005em rgba(221,221,221,.5); /* smoother text on Chrome */ }
+h4, h5 { font-weight: normal; }
+#Bottom h1, #Bottom h2, #Bottom h3, #Bottom h4, #Bottom h5, #Bottom h6 { color: #bbb; -webkit-text-stroke: 0.005em rgba(187,187,187,.5); /* smoother text on Chrome */ }
+
+/* Borders and Dividers */
+hr { background-color: #555; }
+div.wpb_tabs .ui-tabs .ui-tabs-panel { 
+	border-top-color: #555; }
+body .wpb_content_element.wpb_separator, body .wpb_content_element.vc_text_separator, .widget li, .search-results #Middle article, .search-results #Middle article.type-portfolio, .search-results #Middle .posts-grid article { 
+	border-bottom-color: #555; }
+div.wpb_tour div.ui-tabs .ui-tabs-nav li a, div.wpb_tour div.ui-tabs ul.ui-tabs-nav li.ui-tabs-active a, div.wpb_tour div.ui-tabs ul.ui-tabs-nav li.ui-tabs-active a:hover, body .wpb_content_element .ui-accordion .ui-accordion-header, .iconBox .textContent, .author-info, #comments.comments-area, #bbpress-forums li.bbp-header ul > li, #bbpress-forums li.bbp-body ul.forum > li, #bbpress-forums li.bbp-body ul.topic > li, #bbpress-forums li.bbp-header, #bbpress-forums li.bbp-footer, #bbpress-forums div.bbp-the-content-wrapper, div.bbp-forum-header, div.bbp-topic-header, div.bbp-reply-header, .bbp-topic-form, .bbp-reply-form, .woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img, .woocommerce div.product div.images img, .woocommerce #content div.product div.images img, .woocommerce-page div.product div.images img, .woocommerce-page #content div.product div.images img {
+	border-color: #555; }
+
+/* Buttons */
+a.btn, a.btn:link, a.btn:visited, button, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type=submit], .wpb_button, span.wpb_button, button.wpb_button,
+li.bypostauthor cite span, div.jp-interface, div.wpb_tour_next_prev_nav a {
+	color: #888; border-color: #666; background-color: transparent; }
+a.btn:hover, a.btn:active, button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, article.post-password-required:hover input[type=submit]:hover, span.wpb_button:hover, button.wpb_button:hover, li.bypostauthor cite span:hover, div.wpb_tour_next_prev_nav a:hover {
+	color: #ccc; border-color: #999; background-color: transparent; } /* hover */
+a.btn:active, button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active, span.wpb_button:active, button.wpb_button:active, div.wpb_tour_next_prev_nav a:active {
+	background-color: rgba(221,221,221,.2); } /* active */
+/* Accent/Impact Buttons */
+.impactBtn, .impactBtn:hover, .impactBtn:active, a.impactBtn, a.impactBtn:link,  a.impactBtn:visited, a.impactBtn:hover, a.impactBtn:active, .wpb_call_to_action .wpb_button, .wpb_call_to_action .wpb_button:hover, .wpb_call_to_action .wpb_button:active { 
+	color: #fff; }
+
+/* Inputs */
+textarea, input[type="text"], input[type="password"], input[type="file"], .textInput { background-color: #333; border-color: #494949; color: #999; }
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, .textInput:focus { border-color: #595959 }
+
+/* Main Menu 
+----------------------------------------------- */
+/* Top Level Items */
+#MainNav #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > a span, #megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.current-menu-item > a, #megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.current-menu-item > a:visited, .navSearch a#NavSearchLink, .navSearch a#NavSearchLink:hover, .navSearch a#NavSearchLink:visited { font-weight: 600; color: #707070; }
+/* Top Level (hover) */
+#MainNav #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > a:hover span, body #megaMenu ul.megaMenu > li.menu-item:hover > a, body #megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-mega:hover > a, body #megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-reg.mega-with-sub:hover > a, body #megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-mega.megaHover > a, body #megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-reg.mega-with-sub.megaHover > a, body #megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.current-menu-item > a:hover { color: #b0b0b0; }
+/* Sub-menu background */
+#megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1, #megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu, .boxed #NavSearchForm, .full-width #NavSearchForm { background-color: #4c4c4c; }
+	/* indent arrows (set color same as sub-menu background ) */
+	@media screen and (min-width: 768px) {
+		#megaMenu ul.megaMenu > li.mega-with-sub:hover > a:after, #megaMenu ul.megaMenu > li.mega-with-sub > a:hover:after, #megaMenu ul.megaMenu > li.mega-with-sub:hover > span.um-anchoremulator:after, #megaMenu ul.megaMenu > li.mega-with-sub > span.um-anchoremulator:hover:after, .boxed #NavSearchForm:after, .full-width #NavSearchForm:after {
+			border-bottom-color: #4c4c4c; }
+		#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:hover:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:hover:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > a:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > a:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > span.um-anchoremulator:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > span.um-anchoremulator:after, li.menu-item.mega-with-sub > a:hover:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > a:hover:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > a:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega:hover > a:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > span.um-anchoremulator:after, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega:hover > span.um-anchoremulator:after { 
+			border-right-color: #4c4c4c; }
+		body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:hover:after, body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:hover:after, body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > a:after, body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > a:after, body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > span.um-anchoremulator:after, body.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > span.um-anchoremulator:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:hover:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:hover:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > a:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > a:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > span.um-anchoremulator:after, body.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega:hover > span.um-anchoremulator:after { border-left-color: #4c4c4c; }
+	}
+
+/* Sub-Menu Titles */
+body #megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > a, body #megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item:hover > a, body #megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.ss-nav-menu-header > a, body #megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.ss-nav-menu-header.menu-item a, body #megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.ss-nav-menu-header.menu-item a:hover, body #megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > .um-anchoremulator, body .wpmega-widgetarea h2.widgettitle { 
+	color: #f0f0f0; color: rgba(255,255,255,.9); font-size: 14px; font-weight: 600; }
+/* Sub-Menu Links */
+body #megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.menu-item a, body #megaMenu ul li ul.sub-menu li.menu-item a, body #megaMenu ul li ul.sub-menu li.menu-item .um-anchoremulator { 
+	color: #bbb; color: rgba(255,255,255,.6); }
+/* Sub-Menu Links (hover) */
+body #megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.menu-item a:hover, body #megaMenu ul ul.sub-menu > li.menu-item:hover > a:hover { color: #fff; }
+/* Sub-menu Dividers */
+body #megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > a, body #megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > span.um-anchoremulator { border-top-color: rgba(255,255,255,.1); }
+
+/* Default quote post format 
+----------------------------------------------- */
+.format-quote .post-header .sub-title, .format-quote .post-header .post-symbol i { background-color: transparent!important; }
+
+/* Skin specific styles (mostly for colored background adjustments)
+----------------------------------------------- */
+
+/* Containers */
+#Middle article.type-portfolio, #Middle .posts-grid article, .post-nav.post-next .post-nav-info-wrapper, .post-nav.post-prev .post-nav-info-wrapper { background-color: #292929; } /* posts grid & post nav */
+.post-nav.post-prev .nav-thumb:after, .post-nav.post-next .nav-thumb:after, .post-nav.post-prev .nav-thumb:before, .post-nav.post-next .nav-thumb:before { border-bottom-color: #292929; }
+article.type-portfolio .entry-footer, .posts-grid article .entry-footer { background-color: #202020; border-color: #303030; } /* posts grid footer */
+
+/* Post details */
+.post-meta, .post-format-label, .post-symbol, .single-post-format { color: #777; }
+.post-symbol .entypo { -webkit-text-stroke: 0.015em rgba(119,119,119,.85); }
+
+/* Paging */
+.pagingLinks a, .pagingLinks a:hover { border-color: #666; }
+.pagingLinks a:hover { color: #bbb; background-color: #555; }
+.pagingLinks a.current,.pagingLinks a.current:hover { background-color: #494949; color: #aaa; }
+
+/* comments and author */
+.author-info, .comments-area article, .comments-area article header:before { border-color: rgba(128,128,128,.4); }
+
+/* post navigation */
+.post-nav .nav-arrow, a.post-nav.post-next:hover i.nav-arrow, a.post-nav.post-prev:hover i.nav-arrow { background-color: rgba(255,255,255,.1); border-color: rgba(255,255,255,.25); color: rgba(255,255,255,.4); text-shadow: none; }
+a.post-nav.post-next:hover i.nav-arrow, a.post-nav.post-prev:hover i.nav-arrow { background-color: rgba(0,0,0,.1); }
+
+/* tabs arrow */
+div.wpb_tabs.light div.ui-tabs .ui-tabs-nav li.ui-tabs-active a, div.wpb_tabs.light div.ui-tabs .ui-tabs-nav li a:hover { background-image: url(assets/images/misc/arrow-down-light.png); }
+
+/* font exceptions */
+.post-nav-info h4.entry-title, .portfolio-details.entry-meta h6 { font-weight: 600; }
+.title-bottom-attached { color: #393939; }
+.entry-title, .entry-title a, .wpb_carousel .post-title a { font-weight: 300; color: #41B6AB; }
+.posts-grid article h2.entry-title, .posts-grid article h2.entry-title a { color: #ddd; }
+.posts-grid article h2.entry-title a:hover { color: #41B6AB; }
+
+/* alternate border color */
+body .wpb_content_element .ui-accordion .ui-accordion-header, .wpb_content_element.wpb_call_to_action { border-color: #696969; }

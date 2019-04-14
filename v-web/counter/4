@@ -1,0 +1,8 @@
+<applet code='counter' codebase='/v-web/counter'
+     width='200' height='30'>
+    <param name='counter' value='MainCounter'>
+    <param name='style' value='Z'>
+    <param name='minsize' value='6'>
+    <param name='bgcolor' value='#FFFFFF'>
+    <param name='twoclicks' value='http://jiaoyingschool.com'>
+</applet>

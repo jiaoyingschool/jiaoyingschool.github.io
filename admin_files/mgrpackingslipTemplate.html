@@ -1,0 +1,97 @@
+<HTML>
+<head>
+<TITLE> %%month%% %%year%% Packing Slip for Order: %%invoiceNumber%% - %%customerNumber%%</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="copyright" content="%%year%%">
+<meta name="author" content="AgoraCart">
+<meta name="publisher" content="K-Factor Technologies,Inc.">
+</head>
+<BODY bgcolor="#FFFFFF" text="#000000" alink="#FF0000" vlink="#FF00FF" link="#0000FF">
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td>
+<center><font face=arial size=+3 color=red><b>Packing Slip&nbsp;&nbsp;&nbsp;</b> </font></center>
+<font face=arial size=+2 color=red>AgoraCart.com</font><br>
+<font face=arial size=1>your company address<br>City, State, Postalcode<br>Phone: 800-123-4567<br>Email_address@SomeDomainNameHere.com</font><br>
+<br>
+<table width=98% border=1 cellpadding=10 cellspacing=0>
+<tr bgcolor=#99CC99>
+<td valign=top width=50%>
+<font face=arial size=2>
+<b>Bill To:</b>
+</font>
+</td>
+<td valign=top width=50%>
+<font face=arial size=2>
+<b>Ship To:</b>
+</font>
+</td></tr>
+<tr>
+<td valign=top width=50%>
+<font face=arial size=2><b>
+%%fullName%%<br>
+<!--%%companyName%%<br>-->
+%%orderFromAddress%%<br>
+%%orderFromCity%%, %%orderFromState%%<br>
+%%orderFromPostal%%<br>
+%%orderFromCountry%%<br><br>
+%%customerPhone%%<br>
+%%emailAddress%%<br>
+</b>
+</font>
+</td>
+<td valign=top>
+<font face=arial size=2><b>
+%%shipToName%%<br>
+%%shipToAddress%%<br>
+%%shipToCity%%, %%shipToState%%<br>
+%%shipToPostal%%<br>
+%%shipToCountry%%<br><br>
+</b>
+</font>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top width=100%>
+<font face=arial size=2>
+<b>Order: %%invoiceNumber%% - %%customerNumber%%</b>
+</font>
+</td></tr>
+<tr>
+<td valign=top width=50%>
+<font face=arial size=1>
+<b>Date of Order:</b> %%month%% %%day%%, %%year%%<br>
+<b>Invoice Number:</b> %%invoiceNumber%%<br>
+<b>Customer ID:</b> %%customerNumber%%<br>
+</font>
+</td>
+<td valign=top width=50%>
+<font face=arial size=1>
+<b>Status of Order:</b> %%orderStatus%%<br><br>
+<b>Ship via:</b> %%shipMethod%%<br>
+<b>Residential?</b> %%shipToResidential%%<br>
+<b>Insure?</b> %%shipToInsured%%<br>
+<b>Tracking ID (if any):</b> %%shiptrackingID%%<br>
+</font>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top><center><font face=arial size=2><b>Product Information</b></font></center></td></tr>
+<tr>
+<td colspan=2 valign=top>
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<td valign=top width=75%><font face=arial size=1><br><b>Product Name</b></font></td>
+<td valign=top width=10%><font face=arial size=1><br><b>Quantity</b></font></td>
+<td valign=top width=15%><font face=arial size=1><br><b></b></font></td></tr>
+%%cartContents%%
+</table>
+</td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top><center><font face=arial size=2><b>Messages</b></font></center></td></tr>
+<tr>
+<td colspan=2 valign=top><center><font face=arial size=1>%%xcomments%%</font></center></td></tr>
+<tr bgcolor=#99CC99>
+<td colspan=2 valign=top><center><font face=arial size=2><b>Packing Instructions / Messages</b></font></center></td></tr>
+<tr>
+<td colspan=2 valign=top><font face=arial size=1>%%shippingMessages%%</font></td></tr>
+</table>
+</td></tr>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,89 @@
+<!--BEGIN HEADER TABLE-->
+<table class="ac_header">
+<tr>
+  <td>
+<!--agorascript-pre 
+&capture_STDOUT; 
+print qq~<font class="template_fonth1"><b>$sc_headerStoreTitle</b></font>~;
+print qq~<font class="template_fonth2"><br>$sc_headerStoreTagLine</font>~;
+&uncapture_STDOUT;  -->
+
+  </td>
+  <td class="ac_header_search">
+    <form method="post" action="<!--agorascript-post { &capture_STDOUT;
+print "$sc_store_url";
+&uncapture_STDOUT;
+} -->">
+      <input type="hidden" name="cart_id" value="%%cart_id%%">
+      <input type="text" name="keywords" size="20" maxlength="40">
+      <input type="hidden" name="ppinc=search" value="search">
+      <input type="submit" name="search_request_button" value="Search"> 
+    </form>
+  </td>
+</tr>
+</table>
+<table class="ac_mainbody" cellpadding=0 cellspacing=0>
+<tr>
+  <td class="ac_left_nav">
+<!--START Category Listings-->
+<!--agorascript-pre {
+     if ($sc_buySafe_is_enabled =~ /yes/) {
+          &capture_STDOUT;
+          print qq|<br>$sc_buysafe_merchant_seal_complete_button_string<br><br>|;
+          &uncapture_STDOUT;
+    }
+# code to list categories and/or sub categories
+# updated for pre-built lists in managers by Mister Ed September 29, 2007
+if ($sc_displayDynamicCategories =~ /yes/i) {
+&capture_STDOUT;
+        print "<h3>Categories</span></h3>";
+if ($sc_use_database_subcats =~ /yes/i) {
+    if ($sc_global_bot_tracker ne '1') {
+           print qq|\n$sc_categories_with_subcats\n|;
+    }
+    else {
+           print qq|\n$sc_categories_bots_with_subcats\n|;
+    }
+} else { 
+    if ($sc_global_bot_tracker ne '1') {
+           print qq|\n$sc_categories_no_subcats\n|;
+    }
+    else {
+    print qq|\n$sc_categories_bots_no_subcats\n|;
+    }
+}
+print "\n <br>";
+
+&uncapture_STDOUT; }
+}
+-->
+<!--END Category Listings-->
+    <hr/>
+    <form method="post" action="<!--agorascript-post { &capture_STDOUT;
+print "$sc_store_url";
+&uncapture_STDOUT;
+} -->">
+      <h3>
+        Look For Gifts<br/>
+        under this Price:<br/>
+        <input type="hidden" name="cart_id" value="%%cart_id%%">
+        $ <input type="text" name="query_price_high_range" size="6" maxlength="10"><br/>
+        <input type="hidden" name="ppinc" value="search">
+        <input type="submit" name="search_request_button" value=" Search ">
+      </h3>
+    </form>
+    <hr/>
+    <h3>Company Info:</h3>
+<!--agorascript-pre 
+&capture_STDOUT; 
+&cartlinks;
+# Match the style for left links
+$cartlinks =~ s/<a href/<a class=\"ac_left_links\" href/ig;
+print $cartlinks;
+&uncapture_STDOUT;  -->
+    
+
+    
+  </td>
+  <td class="ac_content">
+<!--END HEADER TABLE-->

@@ -1,0 +1,24 @@
+/*
+ * Styles for older IE versions (previous to IE9) 
+*/
+
+
+#FadeInContent { display: none; }
+
+/*---------- IE7 ----------*/
+
+.screen-reader-text { clip: rect(1px 1px 1px 1px); } 
+
+/*---------- IE8 ----------*/
+
+/* Logo */
+.site-title .logo { display: block; width: 100%; height: 100%; }
+
+/* Single Post */
+.single-post .page-title { width: 100%; }
+
+/* Revolution Slider - Full screen */
+body #Top .type_slide-show .rev_slider_wrapper.fullscreen-container { position: absolute !important; top: 0 !important; left: 0 !important; }
+body #Top .type_slide-show .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper.fullscreen-container { top: auto !important; left: auto !important; }
+body.admin-bar #Top .type_slide-show .rev_slider_wrapper.fullscreen-container { top: 32px !important; }
+body.admin-bar #Top .type_slide-show .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper.fullscreen-container { top: auto !important; }

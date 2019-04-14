@@ -1,0 +1,1 @@
+m›úU<?php exit; ?>a:1:{s:7:"content";a:7:{s:6:"WPLANG";b:1;s:44:"_wc_session_a10bc9683176ff6d74efea6f8a6bc188";b:1;s:22:"vellum_sidebarSettings";b:1;s:22:"woocommerce_permalinks";b:1;s:24:"vc_automapped_shortcodes";b:1;s:27:"woocommerce_lock_down_admin";b:1;s:13:"rewrite_rules";b:1;}}

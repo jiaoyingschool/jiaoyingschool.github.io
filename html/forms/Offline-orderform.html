@@ -1,0 +1,583 @@
+<html>
+<head>
+<title>Step One - Checkout Process</title>
+</head>
+<!--agorascript-orderform
+ &Offline_order_form_prep;
+-->
+<body>
+
+<h2>CART CONTENTS HERE</h2>
+
+</form><form method="post" action="agora.cgi">
+
+<div align="center">
+<table class="ac_checkout">
+<!--agorascript-pre
+if ("$sc_offline_top_message" ne "") { return
+q~<tr>
+<td colspan="2"><br><blockquote>$sc_offline_top_message</blockquote><br></td>
+</tr>~
+;}
+-->
+
+<tr>
+  <td colspan="2" class="ac_checkout_top_col">
+    Purchase & Billing Information:
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">First name</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" name="Ecom_BillTo_Postal_Name_First"
+      value="$eform_Ecom_BillTo_Postal_Name_First" size="30" maxlength="30">
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">Last name</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" name="Ecom_BillTo_Postal_Name_Last"
+      value="$eform_Ecom_BillTo_Postal_Name_Last" size="30" maxlength="30">
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">Street:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" name="Ecom_BillTo_Postal_Street_Line1"
+      value="$eform_Ecom_BillTo_Postal_Street_Line1" size="30">
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">City:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" name="Ecom_BillTo_Postal_City"
+      value="$eform_Ecom_BillTo_Postal_City" size="30">
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">State/Province:</td>
+  <td class="ac_checkout_right_col">
+    <select name="Ecom_BillTo_Postal_StateProv">
+      <option value="$eform_Ecom_BillTo_Postal_StateProv">$eform_Ecom_BillTo_Postal_StateProv &nbsp;</option>
+<!--agorascript-pre
+{ return
+qq|$sc_shiptostates_4forms|;}
+ -->
+    </select>
+  </td>
+</tr>
+
+<tr>
+  <td class="ac_checkout_left_col">Zip/Postal Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" name="Ecom_BillTo_PostalCode"
+      value="$eform_Ecom_BillTo_PostalCode" size="11" maxlength="11">
+  </td>
+</tr>
+
+
+<tr>
+  <td class="ac_checkout_left_col">Country:</td>
+  <td class="ac_checkout_right_col">
+    <select name="Ecom_BillTo_Postal_CountryCode">
+      <option value="$vform_Ecom_BillTo_Postal_CountryCode">$vform_Ecom_BillTo_Postal_CountryCode</option>
+<!--agorascript-pre
+
+if ("$sc_shiptocountries_4forms" ne '') { return
+qq|$sc_shiptocountries_4forms|;}
+else {
+return
+qq|
+<option>United States</option>
+<option>Australia</option>
+<option>Canada</option>
+<option>Ireland</option>
+<option>Puerto Rico</option>
+<option>Scotland</option>
+<option>United Kingdom</option>
+<option>Wales</option>
+|;
+} -->
+    </select>
+  </td>
+</tr>
+
+<!--agorascript-pre
+if ("$sc_enable_discount" =~ /yes/i) {
+  if ("$sc_storewide_discount" ne "0") { return
+q~
+<tr>
+  <td colspan="2"><hr/></td>
+</tr>
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="hidden" NAME="Ecom_Discount" value="storewide">
+    <i>Storewide Sale going on. No other discounts can be applied.</i>
+  </td>
+</tr>
+~;
+  } else { return
+q~
+<tr>
+  <td colspan="2"><hr/></td>
+</tr>
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" NAME="Ecom_Discount" value="$eform_Ecom_Discount" size="22" maxlength="30">
+  </td>
+</tr>
+~;
+  }
+} elsif ("$sc_storewide_discount" ne "0") { return
+q~
+<tr>
+  <td colspan="2"><hr/></td>
+</tr>
+<tr>
+  <td class="ac_checkout_left_col">Discount Code:</td>
+  <td class="ac_checkout_right_col">
+    <input type="hidden" NAME="Ecom_Discount" value="storewide">
+    <i>Storewide Sale going on. No other discounts can be applied.</i>
+  </td>
+</tr>
+~;
+}
+-->
+
+<tr>
+  <td colspan="2"><hr/></td>
+</tr>
+
+<!--agorascript-pre
+if ("$sc_allow_pay_by_mailedcheck" =~ /yes/i) {
+return q~
+<tr>
+<td colspan="2">
+<b>Do You Wish To Mail Your Payment</b> (check, money order):<input type="radio" name="Ecom_Payment_Card_Type"
+~ .
+&vform_check("Ecom_Payment_Pay_Type","MailedFunds","Checked") .
+q~ value="MailedFunds">
+</td>
+</tr>
+<tr>
+  <td colspan="2"><hr width=80% /></td>
+</tr>
+~;
+} else {return '';}
+-->
+
+<!--agorascript-pre
+if ("$sc_allow_pay_by_PO" =~ /yes/i) {
+return q~
+<td colspan="2">
+<b>Purchase Order:</b> <input type="radio" name="Ecom_Payment_Card_Type"
+~ .
+&vform_check("Ecom_Payment_Pay_Type","PO","Checked") .
+q~ value="PO">
+&nbsp;&nbsp;&nbsp; PO Number:<input type="text" name="Ecom_Payment_PO_Number"
+  value="$vform_Ecom_Payment_PO_Number" size="40" maxlength="40">
+</td>
+</tr>
+<tr>
+  <td colspan="2"><hr width=80% /></td>
+</tr>
+~;
+} else {return '';}
+-->
+
+<!--agorascript-pre
+if ("$sc_allow_pay_by_check" =~ /yes/i) {
+return q~
+<tr>
+<td colspan="2">
+<b>Check:</b> <input type="radio" name="Ecom_Payment_Card_type"
+~ .
+&vform_check("Ecom_Payment_Pay_Type","CHECK","Checked") .
+q~ value="Check">
+&nbsp;&nbsp;&nbsp; Bank name:<input type="text" name="Ecom_Payment_Bank_name"
+value="$vform_Ecom_Payment_Bank_name" size="40" maxlength="40">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<table width="100%" border="0">
+<tr>
+<td>
+  Bank Routing Number<br/>
+  <input type="text" name="Ecom_Payment_BankRoute_Number"
+    value="$vform_Ecom_Payment_BankRoute_Number" maxlength="20" size="18">
+</td>
+<td>
+  Account Number<br/>
+  <input type="text" name="Ecom_Payment_BankAcct_Number"
+    value="$vform_Ecom_Payment_BankAcct_Number" maxlength="20" size="18">
+</td>
+<td>
+  Check Number<br/>
+  <input type="text" name="Ecom_Payment_BankCheck_Number"
+    value="$vform_Ecom_Payment_BankCheck_Number" maxlength="20" size="18">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+  <td colspan="2"><hr width=80% /></td>
+</tr>
+~;
+} else {return '';}
+-->
+
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+ return q~
+<tr>
+<td colspan="2"><b>Credit Card</b>: 
+<input type="radio" name="Ecom_Payment_Card_Type"
+~;}
+-->
+
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+&vform_check("Ecom_Payment_Card_Type","Visa","Checked");}
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+ return q~ value="Visa">Visa
+
+<input type="radio" name="Ecom_Payment_Card_Type"
+~;}
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+&vform_check("Ecom_Payment_Card_Type","MasterCard","Checked");}
+--> 
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+ return q~value="MasterCard">Mastercard
+~;}
+-->
+<!--agorascript-pre
+if (("$sc_take_discover" =~ /yes/i) && ("$sc_allow_pay_by_CC" =~ /yes/i)) {
+return q~<input type="radio" name="Ecom_Payment_Card_Type" ~ .
+&vform_check("Ecom_Payment_Card_Type","Discover","Checked") .
+q~  value="Discover">Discover ~;
+}
+-->
+<!--agorascript-pre
+if (("$sc_take_amex" =~ /yes/i) && ("$sc_allow_pay_by_CC" =~ /yes/i)) {
+return q~<input type="radio" name="Ecom_Payment_Card_Type" ~ .
+&vform_check("Ecom_Payment_Card_Type","American Express","Checked") .
+q~ value="American Express">American Express ~;
+}
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+return q~
+</td>
+</tr>
+
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+~};
+-->
+<!--agorascript-orderform
+if (($vform_Ecom_Payment_Pay_type eq 'CC') && ("$sc_allow_pay_by_CC" =~ /yes/i)) {
+  $ags_Ecom_Payment_Card_Number=$vform_Ecom_Payment_Card_Number;
+ } else {
+  $ags_Ecom_Payment_Card_Number='';
+ }
+return '';
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+return q~
+<tr>
+<td class="ac_checkout_left_col">Number:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_Payment_Card_Number"
+    value="$ags_Ecom_Payment_Card_Number" maxlength="20">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Exp. Date:</td>
+<td class="ac_checkout_right_col">
+<select name="Ecom_Payment_Card_ExpDate_Month">
+<option value="$vform_Ecom_Payment_Card_ExpDate_Month">
+~};
+-->
+<!--agorascript-pre
+ if (("$vform_Ecom_Payment_Card_ExpDate_Month" eq "") && ("$sc_allow_pay_by_CC" =~ /yes/i)) {
+   return "Month";
+  } else {
+   return "$vform_Ecom_Payment_Card_ExpDate_Month";
+  }
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+return q~
+</option>
+<option>1 - Jan</option>
+<option>2 - Feb</option>
+<option>3 - Mar</option>
+<option>4 - Apr</option>
+<option>5 - May</option>
+<option>6 - Jun</option>
+<option>7 - Jul</option>
+<option>8 - Aug</option>
+<option>9 - Sep</option>
+<option>10 - Oct</option>
+<option>11 - Nov</option>
+<option>12 - Dec</option>
+</select>
+
+<select name="Ecom_Payment_Card_ExpDate_Year">
+<option value="$vform_Ecom_Payment_Card_ExpDate_Year">
+~};
+-->
+<!--agorascript-pre
+ if (("$vform_Ecom_Payment_Card_ExpDate_Year" eq "") && ("$sc_allow_pay_by_CC" =~ /yes/i)) {
+   return " Year ";
+  } else {
+   return "$vform_Ecom_Payment_Card_ExpDate_Year";
+  }
+-->
+<!--agorascript-pre
+if ("$sc_allow_pay_by_CC" =~ /yes/i) {
+return q~
+</option>
+<option> 2008</option>
+<option> 2009</option>
+<option> 2010</option>
+<option> 2011</option>
+<option> 2012</option>
+<option> 2013</option>
+<option> 2014</option>
+<option> 2015</option>
+</select>
+</td>
+</tr>
+~;
+}
+-->
+<!--agorascript-pre
+if ("$sc_offline_enable_cvv" =~ /yes/i) { return
+q|
+<tr>
+  <td class="ac_checkout_left_col">CVV2:</td>
+  <td class="ac_checkout_right_col">
+    <input type="text" NAME="Ecom_Payment_Card_CVV" value="$eform_Ecom_Payment_Card_CVV">
+    &nbsp;&nbsp; <a href="#" onClick="MyWindow=window.open('$sc_store_url?page=cvv2.html','MyWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=275,height=290'); return false;" target="_new"><font size=-1>what is this?</font></a>
+  </td>
+</tr>
+|;
+}
+-->
+<tr>
+<td colspan=2 class="ac_checkout_top_col">Shipping Information: (if different from billing information)</td>
+</tr>
+
+<!--agorascript-pre
+if ("$sc_offline_shipping_message" ne "") { return
+q~<tr>
+<td colspan="2"><blockquote>$sc_offline_shipping_message</blockquote></td>
+</tr>~
+;}
+-->
+<tr>
+<td class="ac_checkout_left_col">Method:</td>
+<td class="ac_checkout_right_col">
+<select name="Ecom_ShipTo_Method">
+<option value="$vform_Ecom_ShipTo_Method"><!--agorascript-pre
+ if ("$vform_Ecom_ShipTo_Method" eq "") {
+   return " Select Shipping Method ";
+  } else {
+   return "$vform_Ecom_ShipTo_Method";
+  }
+--></option>
+<!--agorascript-pre
+
+ { return
+qq|$sc_shiptomethod_4forms|;
+}  -->
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">First name</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_Name_First"
+    value="$eform_Ecom_ShipTo_Postal_Name_First" size="30" maxlength="30">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Last name</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_Name_Last"
+    value="$eform_Ecom_ShipTo_Postal_Name_Last" size="30" maxlength="30">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Street:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_Street_Line1"
+    value="$eform_Ecom_ShipTo_Postal_Street_Line1" size="30">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">City:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_City"
+    value="$eform_Ecom_ShipTo_Postal_City" size="30">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">State/Province:</td>
+<td class="ac_checkout_right_col">
+<select name="Ecom_ShipTo_Postal_StateProv">
+<option value="$vform_Ecom_ShipTo_Postal_StateProv">$vform_Ecom_ShipTo_Postal_StateProv &nbsp;</option>
+<!--agorascript-pre
+{ return
+qq|$sc_shiptostates_4forms|;}
+ -->
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Zip/Postal Code:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_ShipTo_Postal_PostalCode"
+    value="$eform_Ecom_ShipTo_Postal_PostalCode" size="11" maxlength="11">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Country:</td>
+<td class="ac_checkout_right_col">
+  <select name="Ecom_ShipTo_Postal_CountryCode">
+<option value="$vform_Ecom_ShipTo_Postal_CountryCode">$vform_Ecom_ShipTo_Postal_CountryCode</option>
+<!--agorascript-pre
+
+if ("$sc_shiptocountries_4forms" ne '') { return
+qq|$sc_shiptocountries_4forms|;}
+else {
+return
+qq|
+<option>United States</option>
+<option>Australia</option>
+<option>Canada</option>
+<option>Ireland</option>
+<option>Puerto Rico</option>
+<option>Scotland</option>
+<option>United Kingdom</option>
+<option>Wales</option>
+|;
+} -->
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col" colspan=2><input type="checkbox" name="Ecom_is_Residential" value="Ship to Residential Address">  Is this a Residential Address?
+</td>
+</tr>
+
+<tr>
+<td colspan="2" class="ac_checkout_top_col">Phone/Email:</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">Phone:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_BillTo_Telecom_Phone_Number"
+    value="$eform_Ecom_BillTo_Telecom_Phone_Number" size="15" maxlength="15">
+</td>
+</tr>
+
+<tr>
+<td class="ac_checkout_left_col">E-Mail:</td>
+<td class="ac_checkout_right_col">
+  <input type="text" name="Ecom_BillTo_Online_Email"
+    value="$eform_Ecom_BillTo_Online_Email" maxlength="70">
+</td>
+</tr>
+
+<tr>
+<td colspan="2"><hr/></td>
+</tr>
+
+<!--agorascript-pre
+if ("$sc_offline_special_message" ne "") { return
+q~<tr>
+<td colspan="2"><blockquote>$sc_offline_special_message</blockquote></td>
+</tr>~
+;}
+-->
+
+<tr>
+<td class="ac_checkout_left_col">Special Notes:</td>
+<td class="ac_checkout_right_col">
+  <textarea name="Ecom_XCOMMENT_Special_Notes" cols="50" rows="5">$eform_Ecom_XCOMMENT_Special_Notes</textarea>
+</td>
+</tr>
+
+<!--agorascript-pre
+# inspired from solutions submitted from Dan at CartSoutions.net
+if ("$sc_display_checkout_tos" =~ /yes/i) { return
+q|
+<tr>
+<td colspan="2"><hr/></td>
+</tr>
+<tr>
+<td colspan=2 class="ac_checkout_right_col">
+$sc_tos_display_address<br><br>
+You must read the following link before you can continue:  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="$sc_store_url?cartlink=terms_of_service.html" TARGET="_blank"><b>Sales/Terms of Service and Refund Policy</b></A>.<br>
+Then put a tick in the box below. By selecting &quot;I Agree&quot; you are acknowledging that you have read and agree to our policies contained within that page.
+<br><br>
+<input type="checkbox" name="Ecom_tos" value="I Agree">&nbsp;&nbsp;&nbsp; I Agree and have read the Terms of Service listed above (required to continue)</td>
+</tr>
+|;} -->
+
+
+<tr>
+<td colspan="2"><hr/></td>
+</tr>
+
+<tr>
+<td colspan="2"><br>
+<blockquote>
+Only one more step! Please click the <strong>Verify Order</strong>
+button below. This will give you the chance to examine your order
+one last time before you actually submit it to be processed.
+</blockquote>
+</td>
+</tr>
+</table>
+
+<input type="hidden" name="gateway" value="Offline">
+<input type="hidden" name="order_form" value="Offline"><br/>
+<input type="reset" name="Undo Edits" value="Undo Edits">&nbsp;
+<input type="submit" name="clear_order_form_button" value="Clear Order Form">&nbsp;
+<input type="submit" name="submit_order_form_button" value="Verify Order">
+
+</div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>              
+<menu name="links">             
+	<item name="HOME" action="gotoURL" variables="/index.html"/>             
+	<menu name="PROGRAMS">             
+		<item name="CHINESE" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_chinese.html"/>             
+		<item name="ART" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_art.html"/>             
+		<item name="MARTIAL ART" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_martial_art.html"/>             
+		<item name="DANCE" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_dance.html"/>             
+		<item name="CHINESE GO" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/go.html"/>             
+		<item name="SAT" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_sat.html"/>             
+		<item name="ABACUS" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/abacus.html"/>       
+		<item name="MATH" action="gotoURL" variables="http://www.jiaoyingschool.com/academic/academic_math.html"/>           
+            
+	</menu>             
+	<menu name="ENROLLMENT">             
+		<item name="ADMISSION" action="gotoURL" variables="http://www.jiaoyingschool.com/enrollment/admission.html"/>             
+		<item name="COURSE DISCRIP." action="gotoURL" variables="http://www.jiaoyingschool.com/enrollment/enrollment_course_description.html"/>             
+		<item name="REGISTRATON FORM" action="gotoURL" variables="http://www.jiaoyingschool.com/enrollment/enrollment_Forms.html"/>             
+		<item name="SCHEDULE" action="gotoURL" variables="http://www.jiaoyingschool.com/enrollment/enrollment_schedule.html"/>             
+	</menu>             
+	<menu name="RESOURCES">             
+		<item name="ROOM MAP" action="gotoURL" variables="http://www.jiaoyingschool.com/resources/map.pdf"/>             
+		<item name="LOCATION" action="gotoURL" variables="http://www.jiaoyingschool.com/resources/location.html"/>             
+		<item name="EVENTS" action="gotoURL" variables="http://www.jiaoyingschool.com/resources/events.html"/>             
+		<item name="NEWS" action="gotoURL" variables="http://www.jiaoyingschool.com/resources/news.html"/>             
+	</menu>             
+	<menu name="STUDENT AWARDS">             
+		<item name="CHINESE" action="gotoURL" variables="http://www.jiaoyingschool.com/student_awards/student_awards_chinese.html"/>             
+		<item name="ART" action="gotoURL" variables="http://www.jiaoyingschool.com/student_awards/student_awards_art.html"/>             
+	</menu>             
+	<menu name="ABOUT JIAOYING">             
+		<item name="INTRODUCTION" action="gotoURL" variables="http://www.jiaoyingschool.com/about_jiaoying/jiaoying_intro.html"/>             
+		<item name="PAINTINGS" action="gotoURL" variables="http://www.jiaoyingschool.com/about_jiaoying/jiaoying_gellary.html"/>             
+	</menu>             
+	<item name="CONTACTS" action="gotoURL" variables="http://www.jiaoyingschool.com/contacts/contacts.html"/>             
+</menu>

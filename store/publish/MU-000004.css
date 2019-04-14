@@ -1,0 +1,318 @@
+ #mu-main {
+   margin: 0px auto;
+   width: 100%;
+   height: 100%;
+ }
+ #mu-header {
+   text-align: center;
+   background-position: top left;
+   background-repeat: repeat-x;
+ }
+ #mu-header .inner {
+   padding: 10px;
+   text-align: left;
+   clear: both;
+ }
+ #mu-footer a, #mu-footer a:visited {
+   color: #FFFFFF;
+ }
+ #mu-headerspecials {
+   float: right;
+   width: 500px;
+   margin: 0px;
+   padding: 5px;
+   text-align: right;
+   white-space: nowrap;
+   overflow: hidden;
+   min-height: 30px;
+ }
+ #mu-headerspecials .search {
+   width: 150px;
+   font-size: 84%;
+   padding: 0px 1px;
+ }
+ #mu-headerspecials a {
+   font-size: 100%;
+   padding: 0px 15px;
+   text-decoration: none;
+ }
+ #mu-headerspecials .search_submit {
+   border-style: solid;
+   border-width: 1px;
+   background-color: transparent;
+ }
+ #mu-menu {
+   border-bottom: 1px solid #F6F6E3;
+ }
+ #menu {
+   height: 34px;
+   max-height: 34px;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   top: 10px;
+   background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/mu-topbar-bg.png);
+   background-position: bottom left;
+   background-repeat: repeat-x;
+   text-align: center;
+ }
+ #menu .inner {
+   text-align: right;
+ }
+ #mu-submenu {
+   padding: 6px 10px;
+   text-align: center;
+   background-position: 0px -30px;
+   background-repeat: repeat-x;
+ }
+ #mu-submenu .inner {
+   text-align: right;
+   margin: 0px auto;
+   font-size: 90%;
+ }
+ #mu-center {
+   padding: 20px 34px;
+   border-top: 8px solid #F6F6E3;
+   height: 100%;
+   vertical-align: top;
+ }
+ #mu-side, #mu-side2 {
+   width: 150px;
+   max-width: 150px;
+   min-width: 150px;
+   vertical-align: top;
+ }
+ #mu-side div, #mu-side2 div {
+   width: 150px;
+   max-width: 150px;
+   min-width: 150px;
+ }
+ a.left_pagelink, span.left_pagelink, span.left_pagetitle, a.left_pagetitle, a.right_pagelink, span.right_pagelink, a.right_pagetitle, span.right_pagetitle {
+   text-align: left;
+ }
+ a.left_pagetitle, span.left_pagetitle, a.right_pagetitle, span.right_pagetitle {
+  font-weight: bold;
+ }
+ div.left_pagelinks, div.right_pagelinks {
+  padding-bottom: 12px;
+ }
+ #mu-side a, #mu-side2 a {
+   display: block;
+   text-decoration: none;
+   padding: 3px 0px;
+   width: 150px;
+ }
+ .mu-side-right {
+   padding-left: 10px;
+   border-left: 1px solid #D7D7D7;
+ }
+ .mu-side-right2 {
+   padding-left: 10px;
+ }
+ #mu-center-part {
+   vertical-align: top;
+   width: 100%;
+ }
+ #mu-products {
+   width: 100%;
+   border-collapse: collapse;
+   border-bottom: 1px solid #D7D7D7;
+   margin-bottom: 20px;
+   clear: both;
+ }
+ table.borders {
+   border-left: 1px solid #D7D7D7;
+ }
+ table.borders td.pr {
+   border-right: 1px solid #D7D7D7;
+ }
+ #mu-links {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+   clear: both;
+ }
+ #mu-links .pa-link {
+   text-align: center;
+   vertical-align: middle;
+   width: 25%;
+   padding: 20px 0px 0px 0px;
+ }
+ #mu-links .pa-link a {
+   text-decoration: none;
+   font-weight: bold;
+ }
+ #mu-links .pa-link a span {
+   font-weight: normal;
+ }
+ #mu-products td.pr {
+   width: 33%;
+   vertical-align: top;
+   padding: 20px 5px;
+   border-top: 1px solid #D7D7D7;
+ }
+ #mu-footer {
+   border-top: 4px solid #F6F6E3;
+   color: #FFFFFF;
+   line-height: 20px;
+   padding: 10px;
+   font-size: 92%;
+ }
+ #mu-footer a {
+   padding: 0px 8px 0px 0px;
+ }
+ #mu-footer #img-right, #tf {
+   float: right;
+ }
+
+/****************** Global and Per Product CrossSell *****************/
+ #mu-crosssell-g, #mu-crosssell-p {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ #mu-crosssell-p-cartonly {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ #mu-crosssell-g td, #mu-crosssell-p td {
+   width: 25%;
+   vertical-align: middle;
+   padding: 20px 0px;
+   border-top: 1px solid #D7D7D7;
+   text-align: center;
+ }
+ #mu-crosssell-p-cartonly caption {
+   background-color: #037F8F;
+   color: #FFFFFF;
+   font-size: 100%;
+   padding: 8px;
+ }
+ #mu-crosssell-p-cartonly td {
+   width: 25%;
+   vertical-align: middle;
+   padding: 20px 5px;
+   text-align: center;
+ }
+ .gcs_img, .pcs_img {
+ }
+ .gcs_name, .pcs_name {
+   display: block;
+ }
+ .gcs_price, .pcs_price {
+   display: block;
+   font-weight: bold;
+ }
+ .gcs_price strike, .pcs_price strike {
+   font-weight: normal;
+ }
+ .gcs_add, .pcs_add {
+   display: block;
+ }
+/********************* Search Results (and Page Pagination) ***********************/
+ .se_table_top {
+   border-top: 1px solid #D7D7D7;
+   border-bottom: 1px solid #D7D7D7;
+ }
+ .se_table_bottom {
+   border-bottom: 1px solid #D7D7D7;
+ }
+ .search_pr_info span {
+   color: #D7D7D7;
+ }
+ .search_pa_links {
+   border-bottom: 1px solid #D7D7D7;
+ }
+ #gc table.giftcert_type, #gc table.cert_num_amount {
+   border-bottom: 1px solid #D7D7D7;
+  }
+/********************** Shopping Cart Screen Styles ***********************/
+ #progressbar {
+	background-color: #6F420D;
+	border: 1px solid #292825;
+ }
+ table.cart_border {
+   border-bottom: 1px solid #D7D7D7;
+ }
+ #press-recal {
+	background-color: #D7D7D7;
+ }
+/****************** Global Header Navigation Bar ******************/
+/****************** Credits: Dynamic Drive CSS Library ************/
+/****************** URL: http://www.dynamicdrive.com/style/ *******/
+ .suckertreemenu {
+   padding: 0px;
+   height: 34px;
+   max-height: 34px;
+   margin: 0px 0px 6px 0px;
+   position: relative;
+   top: -10px;
+ }
+ .suckertreemenu ul {
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+   float: right;
+   border-left-width: 1px;
+   border-left-style: solid;
+ }
+ .suckertreemenu ul li {
+   position: relative;
+   display: inline;
+   float: left;
+   padding: 0px;
+   margin: 0px;
+   height: 44px;
+   max-height: 44px;
+   border-right-style: solid;
+   border-right-width: 1px;
+   background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/mu-topbar-bg.png);
+   background-position: top left;
+   background-repeat: repeat-x;
+ }
+ .suckertreemenu ul li a {
+   display: block;
+   min-width: 100px;
+   padding: 8px;
+   margin: 0px;
+   text-decoration: none;
+   color: #FFFFFF;
+   text-align: center;
+  }
+ .suckertreemenu ul li a:visited, .suckertreemenu ul li a:active, .suckertreemenu ul li a:hover {
+   color: #FFFFFF;
+  }
+ .suckertreemenu ul li ul {
+   left: 0px;
+   position: absolute;
+   top: -1px;
+   display: block;
+   visibility: hidden;
+   border-right-style: solid;
+   border-right-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+ }
+ .suckertreemenu ul li ul li {
+   display: list-item;
+   float: none;
+   border-width: 0px;
+   max-height: 24px;
+   background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/spacer.gif);
+ }
+ .suckertreemenu ul li ul li ul { 
+   left: 140px;
+   top: 0;
+ }
+ .suckertreemenu ul li ul li a {
+   display: block;
+   width: 140px;
+   text-align: left;
+   margin: 0px;
+   border-width: 0px;
+   padding: 3px 8px;
+ }
+* html p#iepara{
+   padding-top: 1em;
+ }
+* html .suckertreemenu ul li { float: left; height: 1%; }
+* html .suckertreemenu ul li a { height: 1%; }

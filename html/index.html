@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>AgoraCart %%agoracgi_ver%%</title>
+%%head_info%%
+</head>
+
+<body>
+%%StoreHeader%%
+
+<div align="center" style="text-align:justify; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 13px; padding: 20px 10px 20px 10px;">
+
+	<h1 style="text-align:center;" class="style6">Open Source FREE Shopping Cart System</h1>
+<br>
+
+<!--agorascript-pre
+# this is an AgoraCart members only AgoraScript Snippet.  You must be a current member at:
+# http://www.AgoraCartPro.com .  Sign up or renew at AgoraCart.com
+# Copyright &copy; 2000 - Present by K-Factor Technologies Inc., AgoraScript, and BytePipe.
+&capture_STDOUT; open (DATAFILE, "<./data_files/data.file") || die print "Could not open data.file";  @line=<DATAFILE>;
+ close (DATAFILE);
+ srand;
+ $array1 = $line[int rand(@line)];
+ $array2 = $line[int rand(@line)];
+ $array3 = $line[int rand(@line)];
+ $array4 = $line[int rand(@line)];
+ @special1 = split (/\|/, $array1);
+ @special2 = split (/\|/, $array2);
+ @special3 = split (/\|/, $array3);
+ @special4 = split (/\|/, $array4);
+ $image1 = $special1[7];
+ $image2 = $special2[7];
+ $image3 = $special3[7];
+ $image4 = $special4[7];
+   $image1 =~ s/%%IMG%%//ig;
+   $image2 =~ s/%%IMG%%//ig;
+   $image3 =~ s/%%IMG%%//ig;
+   $image4 =~ s/%%IMG%%//ig;
+
+print qq~
+<!--this is an AgoraCart members only AgoraScript Snippet.  You must be a current member at:
+ http://www.AgoraCartPro.com .  Sign up or renew at AgoraCart.com
+ Copyright &copy; 2000 - Present by K-Factor Technologies Inc., AgoraScript, and BytePipe.--\>
+
+
+<table width="96%" border="0" align="center" cellpadding="0" cellspacing="1" class="template_mainbackground">
+          <tr>
+            <td  class="template_mainbackground"><span class="style6"><span class="style7">See What's inside our Store:</span></span></td>
+          </tr>
+  <tr>
+	<td>
+<table width="100%" border="0" align="center" cellpadding="3" bgcolor="#FFFFFF">
+  <tr>
+	<td valign=top width="25%"><center><font face=arial size="2">In $special1[1]:<br><br></font>
+    <a href="agora.cgi?cart_id=&amp;p_id=$special1[0]&amp;xm=on">
+	<img class="template_image_no_border" src="%%URLofImages%%/$image1" alt="$image1"></a></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">In $special2[1]:<br><br></font>
+    <a href="agora.cgi?cart_id=&amp;p_id=$special2[0]&amp;xm=on">
+	<img class="template_image_no_border"  src="%%URLofImages%%/$image2" alt="$image2"></a></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">In $special3[1]:<br><br></font>
+    <a href="agora.cgi?cart_id=&amp;p_id=$special3[0]&amp;xm=on">
+	<img class="template_image_no_border" src="%%URLofImages%%/$image3" alt="$image3"></a></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">In $special4[1]:<br><br></font>
+    <a href="agora.cgi?cart_id=&amp;p_id=$special4[0]&amp;xm=on">
+	<img class="template_image_no_border" src="%%URLofImages%%/$image4" alt="$image4"></a></center></td>
+
+	</tr><tr>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+	<a href="agora.cgi?p_id=$special1[0]&amp;xm=on">$special1[3]</a></font></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+	<a href="agora.cgi?p_id=$special2[0]&amp;xm=on">$special2[3]</a></font></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+	<a href="agora.cgi?p_id=$special3[0]&amp;xm=on">$special3[3]</a></font></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+	<a href="agora.cgi?p_id=$special4[0]&amp;xm=on">$special4[3]</a></font></center></td>
+
+	</tr><tr>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+		<b><font color="FF0000">Only $sc_money_symbol $special1[2]<\/font></b></font></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+		<b><font color="FF0000">Only $sc_money_symbol $special2[2]</font></b></font></center></td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+		<b><font color=\"FF0000\">Only $sc_money_symbol $special3[2]<\/font><\/b><\/font></center><\/td>
+
+	<td valign=top width="25%"><center><font face=arial size="2">
+		<b><font color="FF0000">Only $sc_money_symbol $special4[2]</font></b></font></center></td>
+
+	</tr>
+</table></td>
+	</tr>
+</table>
+~; &uncapture_STDOUT;
+-->
+<br>
+	<div class="ac_vertical_links">
+		<ul>
+			<li><a href="http://www.Agoraguide.com/faq/">Free User Forum</a></li>
+			<li><a href="http://www.agoracartpro.com/">AgoraCartPro.com</a></li>
+			<li><a href="http://www.agoracart.com/download/">Downloads</a></li>
+			<li><a href="http://www.agoracart.com/agorawiki/">User Manuals &amp; Guides</a></li>
+			<li><a href="http://www.agoracart.com/pages/Authorized_Solutions_Providers/">Authorized Solutions Providers (ASPP)</a></li>
+			<li><a href="http://www.AgoraXChange.com/">Hire Freelancers at AgoraXchange.com</a></li>
+			<li><a href="http://www.agoracart.com/pages/Shopping/">Shop other AgoraCart Stores</a></li>
+			<li><a href="http://www.agoracart.com/">the Official AgoraCart Web Site</a></li>
+		</ul>
+	</div>
+
+	<p>Features include: Web-based administration, UPS or fixed-rate shipping, Spreadsheet/Database import of store catalog, PGP/GnuPG ready, Feature-Packed online Store Manager, and much more!</p>
+
+<br>
+
+	<p>
+		The page you are currently viewing is called <strong>index.html</strong> and resides in the <strong>/html</strong>
+		sub directory. You should ONLY be viewing this page by accessing <strong>agora.cgi</strong>, NOT by linking
+		directly to this page. By default, <strong>AgoraCart</strong> loads this page as the homepage.
+	</p>
+	<p>
+		Download the source and view the source code for this page (Don't just view the source code through the web browser
+		or this part won't make sense). Notice the code for the category links above and to the left. For example,
+		<strong>agora.cgi?product=java&amp;cart_id=</strong> displays all of the products from the database that are in the
+		<strong>java</strong> category. The 'cart id=' tells the script to add in the numeric cart id when the page is
+		parsed through the script. In other words, the cart_id IS NOT hardcoded into the source code of the page, but is
+		added dynamically to the page when it is displayed. This makes the script more accessible to users that do not
+		accept cookies.
+	</p>
+
+
+	<h3>Linking to Your Store</h3>
+
+	<p>
+		Linking to your store is fairly easy and you can link from just about anywhere.  Here are the most common way
+		to link to your store:
+	</p>
+	<p>
+		Link to a category:<br>
+		http://www.yourname.com/store/agora.cgi?product=java<br>
+		This will show all the products in the java category.  to limit this to java and java only add this to the
+		end of the URL: &amp;xm=on
+	</p>
+
+	<p>
+		Link to a category with specific page layout:<br>
+		http://www.yourname.com/store/agora.cgi?product=java&amp;ppinc=4a<br>
+		This will show all the products in the java category using the productPage-4a.inc file which shows products
+		4 across with minimal information with additional links
+	</p>
+
+	<p>
+		Link to a specific product (number is exact database number for product):<br>
+		http://www.yourname.com/store/agora.cgi?p_id=00125<br>
+		This will show a single product with the database number 00125
+	</p>
+
+	<p>
+		Link to a specific page (product page):<br>
+		http://www.yourname.com/store/agora.cgi?page=java.html<br>
+		if you wish to have static pages, design and upload to the html/pages sub directory and use the linking method
+		to access that page directly.
+	</p>
+
+
+
+	<h3>Store Manager</h3>
+
+	<p>
+		Store Manager can be accessed <a href="protected/manager.cgi" target="_TOP">here</a>. Please note, on similar
+		scripts you need to use this syntax <strong>manager.cgi</strong>
+	</p>
+	<p>
+		If you use only <strong>manager.cgi</strong>, this script automatically loads the welcome screen!
+		Error-detection/recovery has also been enhanced.
+	</p>
+	<p>
+		Bookmark your Store Manager link, and make sure to remove the link displayed above when you re-design this page.
+	</p>
+
+
+
+	<h3>Editing the Look of Your Store</h3>
+
+	<p>
+		To edit the look of the store, you may edit pre-installed headers and footer files as well as the CSS files via the online CSS and Template editors in hte store management areas.  If you wish to customize the look to an existing design, you must manually
+		create a store_header.html, store_footer.html, secure_store_header.html, and secure_store_footer.html files place in the in
+		the html/html-templates/templates/template-name-here sub directory of your store, as well as edit the index.html file found in the html sub
+		directory of your store.  An options editor to add simple options to your database products is also available for installation from inside the upgrade manager.  See the online user forums and manuals/wiki for more information on customizing your store.
+	</p>
+
+
+
+	<h3>IMPORTANT - Please Note:</h3>
+
+	<p>
+		<strong>AgoraCart</strong> is based on Selena Sol's 'Web Store' program, available at
+		<a href="http://www.extropia.com/">Extropia.com</a>, as well as the Commerce.cgi program from
+		<a href="http://www.careyinternet.com/">Carey Internet Services</a>. The software has split off from the
+		commerce.cgi source tree (2.0beta1) and begun adding significant enhancements suggested by users as well as many
+		found as &quot;cool hacks&quot; available for the 'Web Store' program. The <strong>AgoraCart, AgoraCartPro,
+		Agora.cgi, Agora,</strong> and <strong>Agoracgi</strong> names and software package are copyright
+		1999-Present K-Factor Technologies, Inc. - <a href="http://www.agoracart.com/">AgoraCart.com</a>.
+	</p>
+
+	<p>
+		This is <strong>AgoraCart %%agoracgi_ver%%</strong> and is distributed according to the
+		<a href="agora.cgi?page=license.html">GNU General Public License Version 2</a>. Basically, you use this software
+		at your own risk. <strong>It is offered without support or warranty of
+		any kind.</strong>
+	</p>
+
+	<p>
+		Agora.cgi is open source freeware and is distributed <strong>without support</strong>. AgoraCart.com does maintain
+		a <a href="http://www.agoracart.com">Pro Version Member Area and Mailing List</a>, it is only a $49.95 for Lifetime or
+		$29.95 per year. We rely heavily on the AgoraCart community to support itself. If you find this product
+		useful to you, we hope that you donate your time, talents or a little money as well as subscribe to the the list ... and perhaps 
+        even help someone else on the Mailing	List. Thanks!
+	<p></div>
+
+%%StoreFooter%%
+</body>
+</html>

@@ -1,0 +1,6 @@
+#posts-filter .wp-list-table #the-list td { padding-top: 10px; }
+#posts-filter .wp-list-table #the-list td:before { font-family: FontAwesome; font-size: 26px; padding-right: 5px; }
+#posts-filter .wp-list-table .bbp_forum_reply_count:before,#posts-filter .wp-list-table .bbp_topic_reply_count:before { content: "\f0e6"; }
+#posts-filter .wp-list-table .bbp_reply_topic:before,#posts-filter .wp-list-table .bbp_forum_topic_count:before { content: "\f02d"; }
+#posts-filter .wp-list-table .bbp_reply_author:before,#posts-filter .wp-list-table .bbp_topic_author:before,#posts-filter .wp-list-table .type-forum .author:before { content: "\f007"; }
+#posts-filter .wp-list-table .bbp_topic_voice_count:before { content: "\f0c0"; }

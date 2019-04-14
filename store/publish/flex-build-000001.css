@@ -1,0 +1,99 @@
+
+ html {}
+ body {
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+ }
+ #header_tbl, #content_tbl, #footer_tbl, ul#ShopSite, #base_store_info, #texta div, #social_tbl {
+    margin: 0px auto;
+ }
+ #header_tbl td, #footer_tbl td, #base_store_info, #social_tbl {
+    color: #FFFFFF;
+ }
+ #header-shadow {
+    background: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/flex-build-01-header-bg.png) repeat-x top left;
+    padding-top: 14px;
+ }
+ #texta {
+    background-color: #037F8F;
+ }
+ #social {
+    background-color: #99421A;
+    border-bottom: 2px solid #037F8F;
+ }
+ #header h1, #header-shadow h1 {
+    color: #FFFFFF;
+ }
+ .hdr-bdr, .suckertreemenu {
+    border-bottom: 3px solid #99421A;
+ }
+ #content {
+    background-color: #FFFFFF;
+    padding: 14px 0px;
+ }
+ #content_tbl_full {
+    width: 906px;
+    margin: auto;
+ }
+ div.billing, div.confirmation, div.thankyou {
+    width: 906px;
+ }
+ #left_side a.left_pagetitle, #right_side a.right_pagetitle, #right_side div h3 {
+    font-weight: bold;
+    background: #F6F6E3 url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/flex-build-side-title-bg.gif) no-repeat top left;
+    color: #FFFFFF;
+    padding: 6px 10px;
+ }
+ #left_side a.left_pagelink, #right_side a.right_pagelink, #left_side div.left_pagelinks span, #right_side div.right_pagelinks span, #left_side div.left_pagelinks strong, #right_side div.right_pagelinks strong {
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+ }
+ table#mini-detail td.mini-pr, table#mini-detail td.mini-sub-txt, #right_side table#gbl_crs_sell_right td.loop_product, div.MiniCart span.mini_contains {
+    border-left: 1px solid #D7D7D7;
+ }
+ table#mini-detail td.mini-pc, table#mini-detail td.mini-sub, #right_side table#gbl_crs_sell_right td.loop_product, div.MiniCart span.mini_contains {
+    border-right: 1px solid #D7D7D7;
+ }
+ #left_side a.left_pagelink:hover, #right_side a.right_pagelink:hover {
+    background-color: #D7D7D7;
+ }
+ #left_side div.left_pagelinks, #right_side div.right_pagelinks, #right_side div.MiniCart, table#gbl_crs_sell_right {
+    border-bottom: 1px solid #D7D7D7;
+    margin-bottom: 20px;
+ }
+ table#mini-detail td.mini-pr-txt, table#mini-detail td.mini-qt-txt, table#mini-detail td.mini-pc-txt {
+    background: #6F420D;
+    color: #FFFFFF;
+ }
+ table#mini-detail td.mini-pr-txt {
+    border-left: 1px solid #6F420D;
+ }
+ table#mini-detail td.mini-pc-txt {
+    border-right: 1px solid #6F420D;
+ }
+ #footer a.footer_pagetitle, #footer a.footer_pagetitle:link, #footer a.footer_pagetitle:visited, #footer a.footer_pagetitle:active {
+    color: #99421A;
+    font-weight: bold;
+ }
+ #seo_footer,  #footer a, #footer a:link, #footer a:visited, #footer a:active, .suckertreemenu a, .suckertreemenu a:link, .suckertreemenu a:visited, .suckertreemenu a:active {
+    color: #FFFFFF;
+ }
+ .suckertreemenu li:hover, .suckertreemenu li ul, .suckertreemenu li ul li ul li:hover, .suckertreemenu li ul li ul li ul, .suckertreemenu li ul li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul li ul {
+    background-color: #6F420D;
+ }
+ .suckertreemenu li ul {
+    padding: 5px;
+    top: -4px;
+ }
+ .suckertreemenu li ul li:hover, .suckertreemenu li ul li ul, .suckertreemenu li ul li ul li ul li:hover, .suckertreemenu li ul li ul li ul li ul {
+    background-color: #037F8F;
+ }
+ #header h1 span, #header-shadow h1 span, #header a, #header a:visited, #header a:active, #header-shadow a, #header-shadow a:visited, #header-shadow a:active {
+    color: #99421A;
+ }
+ div.ss_secure_image {
+    width: 906px;
+    margin: 0px auto;
+ }

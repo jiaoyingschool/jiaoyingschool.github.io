@@ -1,0 +1,7 @@
+ #header, #leftlinks, .moreinfo_add, .button a, .button a:hover, .btn, a.btn:link, a.btn:visited, a.btn:hover, a.btn:active, a.mtrx_btn, a.mtrx_btn:hover, a.mtrx_btn:visited, a.mtrx_btn:active, .search_pa_links, #search_form, .gc_policy, #gcs_page, #gcs_mi {
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/spacer.gif);
+	background-repeat: no-repeat;
+	}
+ #topnav a {
+	color: #FFFFFF;
+	}

@@ -1,0 +1,118 @@
+ body {
+	background-repeat: repeat-x;
+ }
+ #header {
+	height: 90px;
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+ }
+ #header, #colorbar h2, #toplinks a,  #toplinks a:hover, #logo h1, #search, .reg td, .reg td a, .suckertreemenu a, .suckertreemenu a:link, .suckertreemenu a:active, .suckertreemenu a:visited {
+	color: #F6F6E3;
+ }
+ #toplinks a:hover {
+	text-decoration: underline;
+ }
+ .suckertreemenu a:hover {
+	color: #FFFFFF;
+ }
+ #logo h1 {
+	font-size: 26pt;
+	font-weight: normal;
+	margin: 0px;
+	padding: 20px;
+ }
+ #search {
+	padding: 20px 0px 0px 0px;
+ }
+ #search_field {
+	padding: 5px;
+	font-style: italic;
+	color: #F6F6E3;
+	font-family: arial;
+	font-size: 90%;
+ }
+ #search_submit {
+	position: relative;
+	top: 2px;
+ }
+ #toplinks {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+ }
+ #toplinks #ss_mb {
+        float: left;
+ }
+ #colorbar {
+	top: 0px;
+	height: 30px;
+	line-height: 30px;
+ }
+ #colorbar h2 {
+	font-weight: normal;
+	font-size: 90%;
+	margin: 0px 20px;
+	padding: 0px 10px;
+	text-align: right;
+ }
+ #container {
+	position: relative;
+	margin: 156px auto 0px auto;
+ }
+ td#content_inner {
+	padding: 10px 26px;
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/3col/3col-4-center-blue.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+ }
+ td#content_inner .pr .product, td#content_inner .pr .pr_img {
+	max-width: 270px;
+	overflow: hidden;
+ }
+ body#full td#content_inner, body#full #content, body#custreg #container {
+	background: #FFFFFF;
+ }
+ body#full #content {
+	padding: 10px 26px;
+ }
+ td#content_inner h1 {
+	font-size: 160%;
+	border-bottom: 1px solid #FFFFFF;
+ }
+ td#left, td#right {
+	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/3col/3col-4-tab-blue.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-color: transparent;
+	border-left: 0px;
+	border-right: 0px;
+ }
+ td#left h2, td#right h2, td#right a.mini-txt, #right .right_pagetitle {
+	padding: 0px;
+	margin: 0px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 140%;
+	border-bottom: 0px;
+ }
+ #footercategories, #press-recal {
+	background-color: #F6F6E3;
+ }
+ div.footcat, table#mini-detail td, #left a, #right a, div.footer_pagelinks {
+	border-color: #000006;
+ }
+ #footerlinks {
+	border-top: 1px solid #FFFFFF;
+ }
+ #progressbar {
+	background-color: #99421A;
+	width: 500px;
+ }
+ .suckertreemenu li, .suckertreemenu ul li ul {
+	border-color: #000006;
+ }
+ #toptabs, .suckertreemenu li, .suckertreemenu ul li a {
+	height: 28px;
+	line-height: 25px;
+ }

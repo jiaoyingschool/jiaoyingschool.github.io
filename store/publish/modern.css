@@ -1,0 +1,67 @@
+ html{}
+ div.left_pagelinks, div.right_pagelinks {margin: 0px; padding: 0px 0px 20px 0px;}
+ div.left_pagelinks a, div.left_pagelinks span, div.right_pagelinks a, div.right_pagelinks span {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 2px 6px;
+ }
+ div.left_pagelinks a.left_pagetitle, div.left_pagelinks span.left_pagetitle, div.right_pagelinks a.right_pagetitle, div.right_pagelinks span.right_pagetitle {padding: 4px 6px;}
+ div.left_pagelinks a.left_pagelink:hover, div.right_pagelinks a.right_pagelink:hover {color: #000000;}
+ #email_signup {padding: 10px 6px;}
+ #email_signup td {text-align: center;}
+ #newsletter_submit input {
+    font-weight: bold;
+    font-size: 90%;
+    background: transparent;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+ }
+ #footer_pagelinks {
+    clear: both;
+    margin: 0px auto;
+    padding: 0px;
+    min-height: 120px;
+ }
+ div.footer_pagelinks {
+    width: 212px;
+    height: 100px;
+    float: left;
+    clear: none;
+    margin: 10px 0px;
+    padding: 0px;
+ }
+ div.footer_pagelinks a, div.footer_pagelinks span {
+    display: block;
+    padding: 2px 10px;
+    text-align: left;
+    text-decoration: none;
+ }
+ div.footer_pagelinks .footer_pagetitle {font-weight: bold;}
+ #ss_mb {margin: 0px auto;text-align: center;}
+ a.fb_share, a.twtr_share {padding: 0px 4px 0px 0px;}
+ span.pin-it-button {display: inline-block; width: 45px; overflow: hidden;}
+ div.fb_share {display: inline-block; width: 55px; overflow: hidden;}
+ div.twtr_share {display: inline-block; width: 88px; overflow: hidden;}
+ div#plusone {display: inline-block; width: 75px; overflow: hidden;}
+ img.social_follow {float: right; padding: 6px 2px;}
+
+ span#ss_inv {display: block; font-weight: bold; line-height: 26px;}
+ span.ss_in_stock {color: green;}
+ span.ss_out_of_stock, span.ss_low_stock {color: red;}
+ .reviews-brief {font-size: 90%; white-space: nowrap; display: block;}
+ .reviews-brief div.reviews_stars {height: 20px; max-height: 20px; overflow: hidden; padding: 2px 0px;}
+ .reviews-brief span.reviews_stars_text, .reviews-brief span.review_product_name, .reviews-brief span.review_microdata_count, span.review_microdata_wrapper span.review_product_name, span.review_microdata_wrapper span.review_microdata_count, div.review span.review_product_name {display: none;}
+ .reviews-brief a, div#reviews-more a {text-decoration: underline;}
+ div#reviews-more span.reviews_stars_text {padding: 0px 6px 0px 0px;}
+ .pcs_table_content span.reviews-brief, .gcs_product_table span.reviews-brief {width: 80px; margin: 0px auto;}
+ div#reviews-more {border-top: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 14px 0px; margin: 0px auto;}
+ div#reviews-more div.reviews_stars, div#reviews-more span.reviews_stars_text, div#reviews-more div.reviews_stars_wrapper, div#reviews-more div.reviews_count {display: inline-block; line-height: 20px;}
+ div#reviews-more div.reviews_stars_wrapper {height: 16px; max-height: 16px; overflow: hidden; padding: 0px; display: inline-block; width: 80px; position: relative; top: 3px;}
+ div#reviews-more h4 {padding: 22px 0px 4px 0px; margin: 0px; font-weight: bold;}
+ span.review_title {font-weight: bold; padding: 0px 8px;}
+ div#reviews-more div.review {border-top: 1px solid #FFFFFF; padding: 14px 0px;}
+ div#reviews-more span.review_author_text, div#reviews-more span.review_author, div#reviews-more span.review_date {line-height: 150%;}
+ td.gcs_product_image, td.pcs_product_image {height: 150px;}

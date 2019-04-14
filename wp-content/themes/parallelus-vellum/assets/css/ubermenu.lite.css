@@ -1,0 +1,146 @@
+
+/* Menu Bar */
+#megaMenu{ background:transparent; }
+
+/* Top Level Menu Items: standard */
+#megaMenu ul.megaMenu > li.menu-item > a,#megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator,.megaMenuToggle { color: #eee; font-size: 14px; padding: 10px 14px; }
+#megaMenu ul.megaMenu > li.menu-item > a span,#megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator,.megaMenuToggle { text-shadow: none; }
+	/* Items with Sub-menus - Enforce top level right padding */
+	#megaMenu ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-item-depth-0 > a,#megaMenu ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-item-depth-0 > span.um-anchoremulator,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 > a,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 > span.um-anchoremulator { padding-right: 14px; }
+
+/* Fix for vertical menus in small screens (helps with switch to horizontal menu layout) */
+#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 { float: left; }
+/* Top Level Menu Items: Hover */
+#megaMenu ul.megaMenu > li.menu-item:hover > a,#megaMenu ul.megaMenu > li.menu-item > a:hover,#megaMenu ul.megaMenu > li.menu-item.megaHover > a,#megaMenu ul.megaMenu > li.menu-item:hover > span.um-anchoremulator,#megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator:hover,#megaMenu ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator { color: #fff; }
+
+/* Top Level: sub-menu arrow indicator */
+#megaMenu ul.megaMenu > li.menu-item.mega-with-sub > a:after,#megaMenu ul.megaMenu > li.menu-item.mega-with-sub.ss-nav-menu-mega > a:after,#megaMenu ul.megaMenu > li.menu-item.mega-with-sub > span.um-anchoremulator:after,#megaMenu ul.megaMenu > li.menu-item.mega-with-sub.ss-nav-menu-mega > span.um-anchoremulator:after { border-top-color: #fff; }
+	/* Clear "default" arrows for vertical menus (specific to links without sub-menus) */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after { content: none; }
+	/* Add vertical menu arrows back into page for items with sub-menus (match to responsive menus) */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > a:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > span.um-anchoremulator:after { content: ''; border-style: solid solid none; border-width: 4px 4px 0; border-color: #fff transparent transparent; }
+
+/* Top Level: Current Menu Item 
+ * NOTE: Vertical menu exceptions at end of file inside "min 768px" section */
+#megaMenu ul.megaMenu > li.menu-item.current-menu-item > a,body #megaMenu ul.megaMenu > li.menu-item.current-menu-item > a:hover { color: #fff; }
+#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.current-menu-item > a,body #megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.current-menu-item > a:hover { padding-left: 0; color: #fff; }
+	/* Active item indicator */
+	#megaMenu ul.megaMenu > li.menu-item.current-menu-item > a:before { font-family: FontAwesome; font-weight: 400; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; float: left; text-align: center; width: 20px; font-size: 20px; line-height: 18px; content: "\f105"; margin-left: -22px; }
+
+/* Sub-Menu */
+#megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-mega > ul.sub-menu-1,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu { border: none; color: #999; text-shadow: none; -webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15); -moz-box-shadow: 0 1px 6px rgba(0,0,0,.15); box-shadow: 0 1px 6px rgba(0,0,0,.15); }
+#megaMenu ul.megaMenu > li.menu-item > ul.sub-menu.sub-menu,#megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > ul.sub-menu { 
+	padding-top: 0; padding-bottom: 1px; border: 1px solid #e0e0e0; 
+	border-color: rgba(0,0,0,.08) rgba(0,0,0,.08) rgba(0,0,0,.09); 
+-moz-background-clip: padding!important; -webkit-background-clip: padding!important; background-clip: padding-box!important; /* allows border to overlay bg content instead of menu */ }
+#megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1,#megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu { background-color: #fff; }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.menu-item a,#megaMenu ul li ul.sub-menu li.menu-item a,#megaMenu ul li ul.sub-menu li.menu-item .um-anchoremulator { color: #999; font-size: 13px; padding: 10px 0; text-shadow: none; }d
+	/* MegaMenu Drop Downs Only (not standard style) */
+	#megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.menu-item a,#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li.menu-item a,#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item .um-anchoremulator { margin: 0; }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > a,#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item:hover > a,#megaMenu ul li.menu-item.ss-nav-menu-mega ul li ul.sub-menu li.ss-nav-menu-header > a,#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > .um-anchoremulator,.wpmega-widgetarea h2.widgettitle { color: #333; font-size: 15px; line-height: 18px; font-weight: 700; text-shadow: none; padding-bottom: .4em; margin-bottom: .4em; }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item a:hover,#megaMenu ul ul.sub-menu > li.menu-item:hover > a { }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item a:hover,#megaMenu ul ul.sub-menu > li.menu-item:hover > a:hover { color: #4b4b4b; }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item.ss-nav-menu-highlight > a,#megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.ss-nav-menu-highlight > a { color: #8f0000; }
+.ss-nav-menu-with-img .wpmega-link-title,.ss-nav-menu-with-img .wpmega-link-description { }
+.ss-nav-menu-with-img { min-height: 20px; }
+#megaMenu ul.megaMenu > li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > ul.sub-menu { top: -1px; margin-right: -1px; }
+#megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > a,#megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > span.um-anchoremulator { padding: 12px 20px; border-top: 1px solid #f0f0f0; }
+	/* First item can't have border... */
+	#megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item:first-child > a,#megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item:first-child > span.um-anchoremulator { border-top: none; }
+#megaMenu ul.megaMenu li.menu-item a span.wpmega-item-description { font-size: 10px; color: #999; text-transform: uppercase; margin-top: 3px; }
+#megaMenu > ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 input[type="text"] { color: #777; }
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul.sub-menu li.menu-item ul.wpmega-postlist img { background: #fff; border: 1px solid #ddd; float: left; padding: 4px; }
+
+/* Extra space for sub-sub-menu arrow indicator */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator { padding-right: 28px; }
+
+/* icons */
+#megaMenu .wpmega-link-title > i[class^="icon-"] { color: #d0d0d0; }
+
+/* Other cross browser stuff */
+#megaMenu .wpmega-link-title { line-height: 18px; } /* fix for browser compatibility (default, 1.4em, interprets as 20px in one browser, 18px in another...) */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > a,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item > span.um-anchoremulator,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator,#megaMenu .wpmega-widgetarea h2.widgettitle { margin-bottom: 0; }
+
+/* Responsive specific styles */
+#megaMenu ul.megaMenu li.menu-item a span.uber-close, #megaMenu ul.megaMenu li.menu-item span.um-anchoremulator span.uber-close{
+	top:50%; margin-top:-13px; width:26px; height:26px; font-weight:700; line-height:23px; text-align:center; text-shadow:none;
+	background:#f0f0f0; color:#aaa !important;  border: 1px solid rgba(0,0,0,.1);
+	border-radius:50%; background-clip:padding-box; box-shadow:0 0 2px rgba(0,0,0,.25); }
+
+/* Max width of 767 */
+@media only screen and (max-width: 767px) {
+	/* Force full width on responsive sub-menus */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 ul.sub-menu-1 { width: 100%; }
+}
+
+/* Minimum width of 768 pixels and max of 480. */
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	/* Responsive Vertical Menu Adjustments (helps them behave like default horizontal menu) */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu > li.menu-item { width: 50%; }
+}
+
+/* Minimum width of 768 pixels. */
+@media screen and (min-width: 768px) {
+
+	/* Top Level Menu Items: standard */
+	#megaMenu ul.megaMenu > li.menu-item > a span,#megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator,.megaMenuToggle { text-shadow: 1px 1px 2px rgba(0,0,0,.65); }
+	
+	/* Active item indicator (adjust position) */
+	#megaMenu ul.megaMenu > li.menu-item.current-menu-item > a:before { margin-left: 0; }
+	
+	/* Responsive Vertical Menu Adjustments (helps them behave like default horizontal menu) */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 { float: none; }
+	
+	/* Putting back to default. */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu > li.menu-item { width: 100%; }
+	
+	/* Vertical menu - Top level items */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 { text-align: right; }
+	#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item > a, #megaMenu.megaMenuVertical ul.megaMenu > li.menu-item > span.um-anchoremulator, #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-item-depth-0 > a,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-item-depth-0 > span.um-anchoremulator,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 > a,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 > span.um-anchoremulator { padding-right: 50px; }
+	.boxed-right #megaMenu.megaMenuVertical ul.megaMenu > li.menu-item > a, .boxed-right #megaMenu.megaMenuVertical ul.megaMenu > li.menu-item > span.um-anchoremulator, .boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > a,.boxed-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > span.um-anchoremulator,.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > a,.full-width-right #megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 > span.um-anchoremulator { padding-left: 50px; padding-right: 20px; }
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 ul.sub-menu-1 { top: auto; margin-top: -55px; }
+		/* regular menus position */
+		#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-reg.ss-nav-menu-item-depth-0 ul.sub-menu-1 { margin-top: -41px; }
+
+	/* Vertical menu - Top Level Menu Items: Hover Indicator Arrow */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > a:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after,#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > span.um-anchoremulator:after { 
+		border-color: transparent; top: 50%; right: 0; margin-top: -12px; margin-right: -15px; border-style: solid solid solid none; border-width: 12px 12px 12px 0; padding-right: 0;
+		-webkit-transition: border-color .15s ease-out .25s, margin .2s ease-out .2s; 
+		   -moz-transition: border-color .15s ease-out .25s, margin .2s ease-out .2s; 
+		     -o-transition: border-color .15s ease-out .25s, margin .2s ease-out .2s; 
+		        transition: border-color .15s ease-out .25s, margin .2s ease-out .2s; }
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub > a:hover:after, 
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega > a:hover:after,
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > a:after, 
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega:hover > a:after,
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub:hover > span.um-anchoremulator:after, 
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.mega-with-sub.ss-nav-menu-mega:hover > span.um-anchoremulator:after {
+		margin-right: 0; border-right-color: #fff;
+		-webkit-transition: border-color .2s ease-out .2s, margin .25s ease-out .1s; -moz-transition: border-color .2s ease-out .2s, margin .25s ease-out .1s; -o-transition: border-color .2s ease-out .2s, margin .25s ease-out .1s; transition: border-color .2s ease-out .2s, margin .25s ease-out .1s; }
+
+	/* Vertical Menu - Top Level: Current Item Indicator */
+	#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item.current-menu-item > a:before { 
+		display: block; float: none; width: 40px; position: absolute; right: 0; text-align: left;
+		-webkit-transition: width .1s ease-in-out; -moz-transition: width .1s ease-in-out; -o-transition: width .1s ease-in-out; transition: width .1s ease-in-out; }
+	#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item.current-menu-item > a:hover:before { width: 35px; }
+	
+	/* Horizontal sub-menus */
+	#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item > ul.sub-menu.sub-menu-1,#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > ul.sub-menu { border-left: 1px; border-top: 0; border-radius: 0; }
+	
+	/* Vertical mega-sub-menus */
+	#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item > ul.sub-menu,#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item > ul.sub-menu,#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > ul.sub-menu,#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > ul.sub-menu { border-left: 0; }
+	
+	/* Vertical mega-sub-menu width */
+	#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega.ss-nav-menu-item-depth-0 ul.sub-menu-1 { width: 525px; max-width: 525px; }
+	
+	/* Vertical regular-sub-menus */
+	#megaMenu.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu,#megaMenu.megaMenuHorizontal ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu { padding-top: 0; padding-bottom: 0; }
+	#megaMenu.megaMenuVertical ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > a,#megaMenu.megaMenuVertical ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > span.um-anchoremulator { padding-left: 27px; padding-right: 27px; }
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+	/* bugfix for submenus moving into masthead on small screens */
+	.boxed-left #megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 ul.sub-menu-1, 
+	.full-width-left #megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 ul.sub-menu-1 { left: 100% !important; }
+}
