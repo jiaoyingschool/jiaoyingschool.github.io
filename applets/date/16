@@ -1,8 +1,0 @@
-<applet code='Time.class' codebase='/applets/date'
-     width='225' height='20'>
-    <param name='textcolor' value='000000'>
-    <param name='backcolor' value='FFFFFF'>
-    <param name='font' value='Helvetica'>
-    <param name='fontsize' value='11'>
-    <param name='bordercolor' value='FFFFFF'>
-</applet>

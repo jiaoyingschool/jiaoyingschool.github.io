@@ -1,7 +1,0 @@
- body, div#page_b1_inner, div#page_b3_inner {
-	background-image: url(https://shopsite.ipower.com/ss11.2/shopsite-images/en-US/backgrounds/shared/spacer.gif);
-	background-repeat: no-repeat;
-	}
- .moreinfo_add, .search_pa_links, .gc_policy, #gcs_page, #gcs_mi, #search_form, .button a, .button a:hover, .btn, a.btn:link, a.btn:visited, a.btn:hover, a.btn:active, input[type="submit"], input[type=submit], a.mtrx_btn, a.mtrx_btn:hover, a.mtrx_btn:visited, a.mtrx_btn:active {
-	background-image: none;
-	}

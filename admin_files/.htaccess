@@ -1,8 +1,0 @@
-#Options None
-
-AuthType Basic
-AuthName Restricted Area
-
-#AuthUserFile /dev/null
-
-require valid-user

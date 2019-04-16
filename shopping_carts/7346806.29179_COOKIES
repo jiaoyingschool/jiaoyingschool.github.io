@@ -1,8 +1,0 @@
-# Library of agora.cgi Server Cookies
-$agora{'BROWSER'} = &str_decode('%2f2.7');
-$agora{'HTTP_USER_AGENT'} = &str_decode('Mechanize%2f2.7.2+Ruby%2f1.9.3p547+(http:%2f%2fgithub.com%2fsparklemotion%2fmechanize%2f)');
-$agora{'LAST_VISIT_TIMESTAMP'} = '1411238963';
-$agora{'PREVIOUS_FORM_VALUES'} = &str_decode('cart_id%017346806.29179%01page%01%01');
-{local($inx);foreach $inx (keys %agora) {$agora_original_values{$inx} = $agora{$inx};}}
-#
-1;

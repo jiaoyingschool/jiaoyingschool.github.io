@@ -1,8 +1,0 @@
-AuthType "Basic"
-AuthName "Access Denied"
-
-AuthUserFile /dev/null
-
-<Limit GET>
-require valid-user
-</Limit>

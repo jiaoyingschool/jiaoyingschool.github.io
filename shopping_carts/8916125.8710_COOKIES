@@ -1,8 +1,0 @@
-# Library of agora.cgi Server Cookies
-$agora{'BROWSER'} = &str_decode('Safari%2f5.34');
-$agora{'HTTP_USER_AGENT'} = &str_decode('=Mozilla%2f5.0+(Windows%3b+U%3b+Windows+NT+6.1%3b+en-US)+AppleWebKit%2f534.16+(KHTML,+like+Gecko)+Chrome%2f10.0.648.204+Safari%2f534.16');
-$agora{'LAST_VISIT_TIMESTAMP'} = '1410865523';
-$agora{'PREVIOUS_FORM_VALUES'} = &str_decode('cart_id%018916125.8710%01page%01%01');
-{local($inx);foreach $inx (keys %agora) {$agora_original_values{$inx} = $agora{$inx};}}
-#
-1;

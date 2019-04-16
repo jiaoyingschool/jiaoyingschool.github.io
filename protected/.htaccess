@@ -1,4 +1,0 @@
-AuthType Basic
-	AuthName "Restricted"
-	AuthUserFile "/hermes/bosoraweb092/b2700/ipw.jiaoying/public_html/protected/.passwd"
-	require valid-user

@@ -1,9 +1,0 @@
- #header, #leftlinks, #search, #content, #topnav, #bottom_divider, #pagination, #pagination2, .moreinfo_add, #text3, .search_pa_links, #gcs_page, #gcs_mi, .gc_policy, #search_form {
-	background-image: none;
-	}
- #page_a1 img, #page_a1, #page_a2 img, #page_a2, #page_a3 img, #page_a3, #page_b1 img, #page_b1, #page_b3 img, #page_b3, #page_c1 img, #page_c1, #page_c2 img, #page_c2, #page_c3 img, #page_c3 {
-	width: 18px;
-	max-width: 18px;
-	height: 18px;
-	max-height: 18px;
-	}
