@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/ekko-lightbox.css"/>
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
@@ -92,64 +93,54 @@
 			</ul>
 			<div class="portfolio-gallery">
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/painting_cover.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/painting_cover.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/painting_cover.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_001.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_001.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_001.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_002.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_002.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_002.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_003.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_003.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_003.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_004.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_004.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_004.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_005.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_005.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_005.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_006.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_006.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_006.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_007.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_007.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_007.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_008.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_008.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_008.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item jiaoyingart">
-					<img src="img/gallery/jiao_009.jpg" alt="">
-					<div class="hover-links">
-						<a href="" class="site-btn sb-light">Next</a>
-					</div>
+					<a href="img/gallery/jiao_009.jpg" data-toggle="lightbox" data-title="" data-footer="">
+					    <img src="img/gallery/jiao_009.jpg" class="img-fluid">
+					</a>
 				</div>
 				<div class="gallery-item sketch">
 					<img src="img/gallery/sketch_001.jpg" alt="">
@@ -200,8 +191,8 @@
 			</form>
 		</div>
 	</div>
-	<!-- Search model end -->
 
+	<!-- Search model end -->
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -212,6 +203,11 @@
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="js/ekko-lightbox.js"></script>
+	<script> $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+	                event.preventDefault();
+	                $(this).ekkoLightbox();
+	            });
+  </script>
 	</body>
 </html>
